@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660708359.51 
+libtool-native-2.4.2-r6.1: do_patch: Elapsed time: 0.50 seconds 
+CPU usage: 22.0% 
+EndIOinProgress: 0
+EndReadsComp: 14110
+EndReadsMerged: 6114354
+EndSectRead: 41738
+EndSectWrite: 8968984
+EndTimeIO: 152856
+EndTimeReads: 160452
+EndTimeWrite: 90994
+EndWTimeIO: 132733
+EndWritesComp: 184700
+StartIOinProgress: 0
+StartReadsComp: 14110
+StartReadsMerged: 6114354
+StartSectRead: 41738
+StartSectWrite: 8968120
+StartTimeIO: 152844
+StartTimeReads: 160450
+StartTimeWrite: 90985
+StartWTimeIO: 132724
+StartWritesComp: 184594
+Status: PASSED 
+Ended: 1660708360.02 

@@ -1,0 +1,5 @@
+do_fetch (3168): log.do_fetch.3168
+do_unpack (5969): log.do_unpack.5969
+do_patch (5974): log.do_patch.5974
+do_configure (6097): log.do_configure.6097
+do_compile (6540): log.do_compile.6540

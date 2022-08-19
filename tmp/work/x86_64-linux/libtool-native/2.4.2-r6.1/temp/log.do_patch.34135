@@ -1,0 +1,158 @@
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for trailingslash.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Searching for rename-with-sysroot.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Searching for use-sysroot-in-libpath.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Searching for fix-final-rpath.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Searching for avoid_absolute_paths_for_general_utils.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Searching for fix-rpath.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Searching for respect-fstack-protector.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Searching for norm-rpath.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Searching for dont-depend-on-help2man.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Searching for fix-resolve-lt-sysroot.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Searching for prefix.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+NOTE: Applying patch 'trailingslash.patch' (../meta/recipes-devtools/libtool/libtool/trailingslash.patch)
+NOTE: Applying patch 'rename-with-sysroot.patch' (../meta/recipes-devtools/libtool/libtool/rename-with-sysroot.patch)
+NOTE: Applying patch 'use-sysroot-in-libpath.patch' (../meta/recipes-devtools/libtool/libtool/use-sysroot-in-libpath.patch)
+NOTE: Applying patch 'fix-final-rpath.patch' (../meta/recipes-devtools/libtool/libtool/fix-final-rpath.patch)
+NOTE: Applying patch 'avoid_absolute_paths_for_general_utils.patch' (../meta/recipes-devtools/libtool/libtool/avoid_absolute_paths_for_general_utils.patch)
+NOTE: Applying patch 'fix-rpath.patch' (../meta/recipes-devtools/libtool/libtool/fix-rpath.patch)
+NOTE: Applying patch 'respect-fstack-protector.patch' (../meta/recipes-devtools/libtool/libtool/respect-fstack-protector.patch)
+NOTE: Applying patch 'norm-rpath.patch' (../meta/recipes-devtools/libtool/libtool/norm-rpath.patch)
+NOTE: Applying patch 'dont-depend-on-help2man.patch' (../meta/recipes-devtools/libtool/libtool/dont-depend-on-help2man.patch)
+NOTE: Applying patch 'fix-resolve-lt-sysroot.patch' (../meta/recipes-devtools/libtool/libtool/fix-resolve-lt-sysroot.patch)
+NOTE: Applying patch 'prefix.patch' (../meta/recipes-devtools/libtool/libtool/prefix.patch)
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

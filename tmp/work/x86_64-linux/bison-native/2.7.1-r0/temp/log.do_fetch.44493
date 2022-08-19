@@ -1,0 +1,16 @@
+DEBUG: Executing python function do_fetch
+DEBUG: Executing python function base_do_fetch
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/bison/bison-2.7.1.tar.xz', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/bison/bison-2.7.1.tar.xz', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/bison/bison-2.7.1.tar.xz', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/bison/bison-2.7.1.tar.xz', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/bison/bison-2.7.1.tar.xz', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/bison/bison-2.7.1.tar.xz', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/bison/bison-2.7.1.tar.xz', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/bison/bison-2.7.1.tar.xz', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/bison/bison-2.7.1.tar.xz', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Fetching ftp://ftp.gnu.org/gnu/bison/bison-2.7.1.tar.xz using command '/usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'ftp://ftp.gnu.org/gnu/bison/bison-2.7.1.tar.xz''
+DEBUG: Fetcher accessed the network with the command /usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'ftp://ftp.gnu.org/gnu/bison/bison-2.7.1.tar.xz'
+DEBUG: Running export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"; export PATH="/opt/yocto/poky/scripts/native-intercept:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin/texinfo-dummy-native:/opt/yocto/poky/scripts:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin/x86_64-linux:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/bin:/opt/yocto/poky/scripts:/opt/yocto/poky/bitbake/bin:/opt/yocto/poky/build/python-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin"; export HOME="/home/chung2"; /usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'ftp://ftp.gnu.org/gnu/bison/bison-2.7.1.tar.xz'

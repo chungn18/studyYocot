@@ -1,0 +1,17 @@
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for unifdef.c in paths:
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef-2.6.18+git/poky
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef/poky
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef-2.6.18+git/
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef/
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/files/
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef-2.6.18+git/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef-2.6.18+git/
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef/
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/files/
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

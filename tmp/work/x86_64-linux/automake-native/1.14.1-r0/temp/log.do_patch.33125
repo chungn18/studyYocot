@@ -1,0 +1,46 @@
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for python-libdir.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake-1.14.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake/poky
+    /opt/yocto/poky/meta/recipes-devtools/automake/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake-1.14.1/
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake/
+    /opt/yocto/poky/meta/recipes-devtools/automake/files/
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake-1.14.1/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/automake/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake-1.14.1/
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake/
+    /opt/yocto/poky/meta/recipes-devtools/automake/files/
+DEBUG: Searching for py-compile-compile-only-optimized-byte-code.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake-1.14.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake/poky
+    /opt/yocto/poky/meta/recipes-devtools/automake/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake-1.14.1/
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake/
+    /opt/yocto/poky/meta/recipes-devtools/automake/files/
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake-1.14.1/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/automake/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake-1.14.1/
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake/
+    /opt/yocto/poky/meta/recipes-devtools/automake/files/
+DEBUG: Searching for buildtest.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake-1.14.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake/poky
+    /opt/yocto/poky/meta/recipes-devtools/automake/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake-1.14.1/
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake/
+    /opt/yocto/poky/meta/recipes-devtools/automake/files/
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake-1.14.1/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/automake/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake-1.14.1/
+    /opt/yocto/poky/meta/recipes-devtools/automake/automake/
+    /opt/yocto/poky/meta/recipes-devtools/automake/files/
+NOTE: Applying patch 'python-libdir.patch' (../meta/recipes-devtools/automake/automake/python-libdir.patch)
+NOTE: Applying patch 'py-compile-compile-only-optimized-byte-code.patch' (../meta/recipes-devtools/automake/automake/py-compile-compile-only-optimized-byte-code.patch)
+NOTE: Applying patch 'buildtest.patch' (../meta/recipes-devtools/automake/automake/buildtest.patch)
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

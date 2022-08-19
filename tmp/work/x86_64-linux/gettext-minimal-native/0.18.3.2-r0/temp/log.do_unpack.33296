@@ -1,0 +1,88 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+DEBUG: Searching for aclocal.tgz in paths:
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/files/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/aclocal.tgz to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/gettext-minimal-native/0.18.3.2-r0/
+DEBUG: Searching for config.rpath in paths:
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/files/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/config.rpath to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/gettext-minimal-native/0.18.3.2-r0/
+DEBUG: Searching for Makefile.in.in in paths:
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/files/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/Makefile.in.in to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/gettext-minimal-native/0.18.3.2-r0/
+DEBUG: Searching for remove-potcdate.sin in paths:
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/files/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/remove-potcdate.sin to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/gettext-minimal-native/0.18.3.2-r0/
+DEBUG: Searching for COPYING in paths:
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/files/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/COPYING to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/gettext-minimal-native/0.18.3.2-r0/
+DEBUG: Searching for iconv-m4-remove-the-test-to-convert-euc-jp.patch in paths:
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/files/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/iconv-m4-remove-the-test-to-convert-euc-jp.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/gettext-minimal-native/0.18.3.2-r0/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished

@@ -1,0 +1,39 @@
+WARNING: Host distribution "Ubuntu-22.04" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION        = "1.24.0"
+BUILD_SYS         = "x86_64-linux"
+NATIVELSBSTRING   = "Ubuntu-22.04"
+TARGET_SYS        = "arm-poky-linux-gnueabi"
+MACHINE           = "qemuarm"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.7.3"
+TUNE_FEATURES     = "arm armv5 thumb dsp"
+TARGET_FPU        = "soft"
+meta              
+meta-yocto        
+meta-yocto-bsp    = "dizzy:58863ad092c9a279e305c841dbb4353de2ecfae8"
+
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 27 of 2045 (ID: 909, /opt/yocto/poky/meta/recipes-devtools/m4/m4-native_1.4.17.bb, do_compile)
+NOTE: Running task 51 of 2045 (ID: 946, /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-source_4.9.bb, do_fetch)
+NOTE: Running task 59 of 2045 (ID: 488, virtual:native:/opt/yocto/poky/meta/recipes-support/attr/attr_2.4.47.bb, do_unpack)
+NOTE: Running task 60 of 2045 (ID: 483, virtual:native:/opt/yocto/poky/meta/recipes-support/sqlite/sqlite3_3.8.6.0.bb, do_fetch)
+NOTE: recipe m4-native-1.4.17-r0: task do_compile: Started
+NOTE: recipe gcc-source-4.9.1-r0: task do_fetch: Started
+NOTE: recipe attr-native-2.4.47-r0: task do_unpack: Started
+NOTE: recipe sqlite3-native-3_3.8.6.0-r0: task do_fetch: Started
+NOTE: recipe attr-native-2.4.47-r0: task do_unpack: Succeeded
+NOTE: Running task 61 of 2045 (ID: 489, virtual:native:/opt/yocto/poky/meta/recipes-support/attr/attr_2.4.47.bb, do_patch)
+NOTE: recipe attr-native-2.4.47-r0: task do_patch: Started
+ERROR: Function failed: do_compile (log file is located at /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/temp/log.do_compile.43955)
+ERROR: Logfile of failure stored in: /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/temp/log.do_compile.43955
+NOTE: recipe m4-native-1.4.17-r0: task do_compile: Failed
+ERROR: Task 909 (/opt/yocto/poky/meta/recipes-devtools/m4/m4-native_1.4.17.bb, do_compile) failed with exit code '1'
+NOTE: Running task 62 of 2045 (ID: 64, virtual:native:/opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo_1.6.2.bb, do_fetch)
+NOTE: recipe attr-native-2.4.47-r0: task do_patch: Succeeded
+NOTE: recipe pseudo-native-1.6.2-r0: task do_fetch: Started
+NOTE: recipe pseudo-native-1.6.2-r0: task do_fetch: Succeeded

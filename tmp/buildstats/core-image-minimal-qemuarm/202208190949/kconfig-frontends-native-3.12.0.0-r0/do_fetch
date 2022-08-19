@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660877402.76 
+kconfig-frontends-native-3.12.0.0-r0: do_fetch: Elapsed time: 5.37 seconds 
+CPU usage: 1.3% 
+EndIOinProgress: 0
+EndReadsComp: 10492
+EndReadsMerged: 4622738
+EndSectRead: 35605
+EndSectWrite: 4854792
+EndTimeIO: 124824
+EndTimeReads: 56826
+EndTimeWrite: 35254
+EndWTimeIO: 70859
+EndWritesComp: 156881
+StartIOinProgress: 0
+StartReadsComp: 10437
+StartReadsMerged: 4583930
+StartSectRead: 34925
+StartSectWrite: 4769984
+StartTimeIO: 123348
+StartTimeReads: 55651
+StartTimeWrite: 34299
+StartWTimeIO: 69224
+StartWritesComp: 154460
+Status: PASSED 
+Ended: 1660877408.13 

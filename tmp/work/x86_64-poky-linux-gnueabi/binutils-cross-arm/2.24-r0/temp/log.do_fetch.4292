@@ -1,0 +1,858 @@
+DEBUG: Executing python function do_fetch
+DEBUG: Executing python function base_do_fetch
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/binutils/binutils-2.24.tar.bz2', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/binutils/binutils-2.24.tar.bz2', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/binutils/binutils-2.24.tar.bz2', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/binutils/binutils-2.24.tar.bz2', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/binutils/binutils-2.24.tar.bz2', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/binutils/binutils-2.24.tar.bz2', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/binutils/binutils-2.24.tar.bz2', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/binutils/binutils-2.24.tar.bz2', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/binutils/binutils-2.24.tar.bz2', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Fetching ftp://ftp.gnu.org/gnu/binutils/binutils-2.24.tar.bz2 using command '/usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -c -P /opt/yocto/poky/qemuarm/downloads 'ftp://ftp.gnu.org/gnu/binutils/binutils-2.24.tar.bz2''
+DEBUG: Fetcher accessed the network with the command /usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -c -P /opt/yocto/poky/qemuarm/downloads 'ftp://ftp.gnu.org/gnu/binutils/binutils-2.24.tar.bz2'
+DEBUG: Running export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"; export PATH="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin/texinfo-dummy-native:/opt/yocto/poky/scripts:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/crossscripts:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/bin:/opt/yocto/poky/scripts:/opt/yocto/poky/bitbake/bin:/opt/yocto/poky/build/python-bin:/opt/yocto/poky/build/python-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin"; export HOME="/home/chung2"; /usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -c -P /opt/yocto/poky/qemuarm/downloads 'ftp://ftp.gnu.org/gnu/binutils/binutils-2.24.tar.bz2'
+DEBUG: Searching for binutils-uclibc-100-uclibc-conf.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'binutils-uclibc-100-uclibc-conf.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-100-uclibc-conf.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-100-uclibc-conf.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-100-uclibc-conf.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-100-uclibc-conf.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-100-uclibc-conf.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-100-uclibc-conf.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-100-uclibc-conf.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-100-uclibc-conf.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for binutils-uclibc-300-001_ld_makefile_patch.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'binutils-uclibc-300-001_ld_makefile_patch.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-001_ld_makefile_patch.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-001_ld_makefile_patch.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-001_ld_makefile_patch.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-001_ld_makefile_patch.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-001_ld_makefile_patch.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-001_ld_makefile_patch.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-001_ld_makefile_patch.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-001_ld_makefile_patch.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for binutils-uclibc-300-006_better_file_error.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'binutils-uclibc-300-006_better_file_error.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-006_better_file_error.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-006_better_file_error.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-006_better_file_error.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-006_better_file_error.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-006_better_file_error.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-006_better_file_error.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-006_better_file_error.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-006_better_file_error.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for binutils-uclibc-300-012_check_ldrunpath_length.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'binutils-uclibc-300-012_check_ldrunpath_length.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-012_check_ldrunpath_length.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-012_check_ldrunpath_length.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-012_check_ldrunpath_length.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-012_check_ldrunpath_length.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-012_check_ldrunpath_length.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-012_check_ldrunpath_length.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-012_check_ldrunpath_length.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-300-012_check_ldrunpath_length.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for binutils-uclibc-gas-needs-libm.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'binutils-uclibc-gas-needs-libm.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-gas-needs-libm.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-gas-needs-libm.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-gas-needs-libm.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-gas-needs-libm.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-gas-needs-libm.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-gas-needs-libm.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-gas-needs-libm.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uclibc-gas-needs-libm.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for libtool-2.4-update.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'libtool-2.4-update.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libtool-2.4-update.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libtool-2.4-update.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libtool-2.4-update.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libtool-2.4-update.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libtool-2.4-update.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libtool-2.4-update.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libtool-2.4-update.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libtool-2.4-update.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for libiberty_path_fix.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'libiberty_path_fix.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libiberty_path_fix.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libiberty_path_fix.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libiberty_path_fix.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libiberty_path_fix.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libiberty_path_fix.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libiberty_path_fix.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libiberty_path_fix.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libiberty_path_fix.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for binutils-poison.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'binutils-poison.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-poison.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-poison.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-poison.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-poison.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-poison.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-poison.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-poison.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-poison.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for libtool-rpath-fix.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'libtool-rpath-fix.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libtool-rpath-fix.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libtool-rpath-fix.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libtool-rpath-fix.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libtool-rpath-fix.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libtool-rpath-fix.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libtool-rpath-fix.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libtool-rpath-fix.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'libtool-rpath-fix.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for binutils-armv5e.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'binutils-armv5e.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-armv5e.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-armv5e.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-armv5e.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-armv5e.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-armv5e.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-armv5e.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-armv5e.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-armv5e.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for mips64-default-ld-emulation.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'mips64-default-ld-emulation.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'mips64-default-ld-emulation.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'mips64-default-ld-emulation.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'mips64-default-ld-emulation.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'mips64-default-ld-emulation.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'mips64-default-ld-emulation.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'mips64-default-ld-emulation.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'mips64-default-ld-emulation.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'mips64-default-ld-emulation.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for binutils-xlp-support.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'binutils-xlp-support.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-xlp-support.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-xlp-support.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-xlp-support.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-xlp-support.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-xlp-support.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-xlp-support.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-xlp-support.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-xlp-support.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for fix-pr15815.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'fix-pr15815.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr15815.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr15815.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr15815.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr15815.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr15815.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr15815.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr15815.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr15815.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for fix-pr2404.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'fix-pr2404.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr2404.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr2404.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr2404.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr2404.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr2404.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr2404.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr2404.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr2404.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for fix-pr16476.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'fix-pr16476.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr16476.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr16476.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr16476.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr16476.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr16476.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr16476.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr16476.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr16476.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for fix-pr16428.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'fix-pr16428.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr16428.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr16428.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr16428.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr16428.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr16428.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr16428.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr16428.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-pr16428.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for replace_macros_with_static_inline.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'replace_macros_with_static_inline.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'replace_macros_with_static_inline.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'replace_macros_with_static_inline.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'replace_macros_with_static_inline.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'replace_macros_with_static_inline.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'replace_macros_with_static_inline.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'replace_macros_with_static_inline.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'replace_macros_with_static_inline.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'replace_macros_with_static_inline.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0001-Fix-MMIX-build-breakage-from-bfd_set_section_vma-cha.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0001-Fix-MMIX-build-breakage-from-bfd_set_section_vma-cha.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-Fix-MMIX-build-breakage-from-bfd_set_section_vma-cha.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-Fix-MMIX-build-breakage-from-bfd_set_section_vma-cha.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-Fix-MMIX-build-breakage-from-bfd_set_section_vma-cha.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-Fix-MMIX-build-breakage-from-bfd_set_section_vma-cha.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-Fix-MMIX-build-breakage-from-bfd_set_section_vma-cha.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-Fix-MMIX-build-breakage-from-bfd_set_section_vma-cha.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-Fix-MMIX-build-breakage-from-bfd_set_section_vma-cha.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-Fix-MMIX-build-breakage-from-bfd_set_section_vma-cha.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for binutils-uninitialised-warning.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'binutils-uninitialised-warning.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uninitialised-warning.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uninitialised-warning.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uninitialised-warning.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uninitialised-warning.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uninitialised-warning.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uninitialised-warning.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uninitialised-warning.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils-uninitialised-warning.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for binutils_CVE-2014-8484.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8484.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8484.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8484.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8484.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8484.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8484.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8484.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8484.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8484.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for binutils_CVE-2014-8485.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8485.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8485.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8485.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8485.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8485.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8485.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8485.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8485.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8485.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for binutils_CVE-2014-8501.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8501.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8501.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8501.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8501.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8501.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8501.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8501.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8501.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8501.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for binutils_CVE-2014-8502_1.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8502_1.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8502_1.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8502_1.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8502_1.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8502_1.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8502_1.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8502_1.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8502_1.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8502_1.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for binutils_CVE-2014-8502.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8502.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8502.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8502.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8502.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8502.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8502.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8502.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8502.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8502.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for binutils_CVE-2014-8503.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8503.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8503.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8503.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8503.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8503.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8503.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8503.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8503.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8503.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for binutils_CVE-2014-8504.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8504.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8504.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8504.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8504.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8504.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8504.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8504.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8504.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8504.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for binutils_CVE-2014-8737.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8737.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8737.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8737.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8737.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8737.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8737.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8737.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8737.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'binutils_CVE-2014-8737.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for Fix-tc-i386.c-Werror-logical-not-parentheses-error.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'Fix-tc-i386.c-Werror-logical-not-parentheses-error.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Fix-tc-i386.c-Werror-logical-not-parentheses-error.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Fix-tc-i386.c-Werror-logical-not-parentheses-error.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Fix-tc-i386.c-Werror-logical-not-parentheses-error.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Fix-tc-i386.c-Werror-logical-not-parentheses-error.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Fix-tc-i386.c-Werror-logical-not-parentheses-error.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Fix-tc-i386.c-Werror-logical-not-parentheses-error.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Fix-tc-i386.c-Werror-logical-not-parentheses-error.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Fix-tc-i386.c-Werror-logical-not-parentheses-error.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Python function base_do_fetch finished
+DEBUG: Python function do_fetch finished

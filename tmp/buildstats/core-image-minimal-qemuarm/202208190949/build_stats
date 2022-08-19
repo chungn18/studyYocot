@@ -1,0 +1,25 @@
+Host Info: Linux ubu2204 5.15.0-46-generic #49-Ubuntu SMP Thu Aug 4 18:03:25 UTC 2022 x86_64 x86_64 
+Build Started: 1660877396.67 
+Failed at: m4-native-1.4.17-r0 at task: do_compile 
+Elapsed time: 12.75 seconds 
+CPU usage: 29.7% 
+EndIOinProgress: 0
+EndReadsComp: 10492
+EndReadsMerged: 4623530
+EndSectRead: 35641
+EndSectWrite: 4856216
+EndTimeIO: 124908
+EndTimeReads: 56837
+EndTimeWrite: 35267
+EndWTimeIO: 70908
+EndWritesComp: 157044
+StartIOinProgress: 0
+StartReadsComp: 10382
+StartReadsMerged: 4539362
+StartSectRead: 34330
+StartSectWrite: 4748192
+StartTimeIO: 121740
+StartTimeReads: 55524
+StartTimeWrite: 34194
+StartWTimeIO: 68524
+StartWritesComp: 151863

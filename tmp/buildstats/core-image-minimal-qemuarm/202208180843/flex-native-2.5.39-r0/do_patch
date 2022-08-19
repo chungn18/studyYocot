@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660787027.00 
+flex-native-2.5.39-r0: do_patch: Elapsed time: 0.28 seconds 
+CPU usage: 9.3% 
+EndIOinProgress: 0
+EndReadsComp: 9304
+EndReadsMerged: 3279106
+EndSectRead: 19434
+EndSectWrite: 588048
+EndTimeIO: 29348
+EndTimeReads: 5538
+EndTimeWrite: 8732
+EndWTimeIO: 28166
+EndWritesComp: 7997
+StartIOinProgress: 0
+StartReadsComp: 9273
+StartReadsMerged: 3275666
+StartSectRead: 19412
+StartSectWrite: 588048
+StartTimeIO: 29224
+StartTimeReads: 5538
+StartTimeWrite: 8732
+StartWTimeIO: 28144
+StartWritesComp: 7997
+Status: PASSED 
+Ended: 1660787027.28 

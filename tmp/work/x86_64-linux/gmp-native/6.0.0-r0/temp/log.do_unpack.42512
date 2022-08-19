@@ -1,0 +1,75 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+NOTE: Unpacking /opt/yocto/poky/qemuarm/downloads/gmp-6.0.0a.tar.bz2 to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/gmp-native/6.0.0-r0/
+DEBUG: Searching for configure.patch in paths:
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/files/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/
+    /opt/yocto/poky/meta/recipes-support/gmp/files/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/files/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/
+    /opt/yocto/poky/meta/recipes-support/gmp/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-support/gmp/gmp/configure.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/gmp-native/6.0.0-r0/
+DEBUG: Searching for amd64.patch in paths:
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/files/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/
+    /opt/yocto/poky/meta/recipes-support/gmp/files/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/files/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/
+    /opt/yocto/poky/meta/recipes-support/gmp/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-support/gmp/gmp/amd64.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/gmp-native/6.0.0-r0/
+DEBUG: Searching for use-includedir.patch in paths:
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/files/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/
+    /opt/yocto/poky/meta/recipes-support/gmp/files/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/files/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/
+    /opt/yocto/poky/meta/recipes-support/gmp/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-support/gmp/gmp/use-includedir.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/gmp-native/6.0.0-r0/
+DEBUG: Searching for append_user_provided_flags.patch in paths:
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/files/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/
+    /opt/yocto/poky/meta/recipes-support/gmp/files/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/files/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/
+    /opt/yocto/poky/meta/recipes-support/gmp/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-support/gmp/gmp/append_user_provided_flags.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/gmp-native/6.0.0-r0/
+DEBUG: Searching for gmp-6.0.0-ppc64.patch in paths:
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/files/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/
+    /opt/yocto/poky/meta/recipes-support/gmp/files/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/files/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/
+    /opt/yocto/poky/meta/recipes-support/gmp/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-support/gmp/gmp/gmp-6.0.0-ppc64.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/gmp-native/6.0.0-r0/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished

@@ -1,0 +1,83 @@
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for aclocal.tgz in paths:
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/files/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+DEBUG: Searching for config.rpath in paths:
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/files/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+DEBUG: Searching for Makefile.in.in in paths:
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/files/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+DEBUG: Searching for remove-potcdate.sin in paths:
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/files/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+DEBUG: Searching for COPYING in paths:
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/files/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+DEBUG: Searching for iconv-m4-remove-the-test-to-convert-euc-jp.patch in paths:
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/files/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+NOTE: Applying patch 'iconv-m4-remove-the-test-to-convert-euc-jp.patch' (../meta/recipes-core/gettext/gettext-minimal-0.18.3.2/iconv-m4-remove-the-test-to-convert-euc-jp.patch)
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

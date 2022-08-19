@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660708307.52 
+texinfo-dummy-native-1.0-r0: do_populate_sysroot: Elapsed time: 0.59 seconds 
+CPU usage: 13.4% 
+EndIOinProgress: 0
+EndReadsComp: 14110
+EndReadsMerged: 6114234
+EndSectRead: 41694
+EndSectWrite: 8931904
+EndTimeIO: 152540
+EndTimeReads: 160029
+EndTimeWrite: 90670
+EndWTimeIO: 132365
+EndWritesComp: 182730
+StartIOinProgress: 0
+StartReadsComp: 14110
+StartReadsMerged: 6114234
+StartSectRead: 41694
+StartSectWrite: 8931896
+StartTimeIO: 152536
+StartTimeReads: 160028
+StartTimeWrite: 90670
+StartWTimeIO: 132364
+StartWritesComp: 182730
+Status: PASSED 
+Ended: 1660708308.11 

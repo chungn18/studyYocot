@@ -1,0 +1,16 @@
+DEBUG: Executing python function do_fetch
+DEBUG: Executing python function base_do_fetch
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Fetching ftp://ftp.gnu.org/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2 using command '/usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -c -P /opt/yocto/poky/qemuarm/downloads 'ftp://ftp.gnu.org/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2''
+DEBUG: Fetcher accessed the network with the command /usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -c -P /opt/yocto/poky/qemuarm/downloads 'ftp://ftp.gnu.org/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2'
+DEBUG: Running export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"; export PATH="/opt/yocto/poky/scripts:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi:/opt/yocto/poky/qemuarm/tmp/sysroots/qemuarm/usr/bin/crossscripts:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/bin:/opt/yocto/poky/scripts:/opt/yocto/poky/bitbake/bin:/opt/yocto/poky/build/python-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin"; export HOME="/home/chung2"; /usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -c -P /opt/yocto/poky/qemuarm/downloads 'ftp://ftp.gnu.org/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2'

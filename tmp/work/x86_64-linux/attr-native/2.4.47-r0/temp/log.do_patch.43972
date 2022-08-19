@@ -1,0 +1,45 @@
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for run-ptest in paths:
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/poky
+    /opt/yocto/poky/meta/recipes-support/attr/attr/poky
+    /opt/yocto/poky/meta/recipes-support/attr/files/poky
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/
+    /opt/yocto/poky/meta/recipes-support/attr/attr/
+    /opt/yocto/poky/meta/recipes-support/attr/files/
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/x86-64
+    /opt/yocto/poky/meta/recipes-support/attr/attr/x86-64
+    /opt/yocto/poky/meta/recipes-support/attr/files/x86-64
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/
+    /opt/yocto/poky/meta/recipes-support/attr/attr/
+    /opt/yocto/poky/meta/recipes-support/attr/files/
+DEBUG: Searching for relative-libdir.patch in paths:
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/poky
+    /opt/yocto/poky/meta/recipes-support/attr/attr/poky
+    /opt/yocto/poky/meta/recipes-support/attr/files/poky
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/
+    /opt/yocto/poky/meta/recipes-support/attr/attr/
+    /opt/yocto/poky/meta/recipes-support/attr/files/
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/x86-64
+    /opt/yocto/poky/meta/recipes-support/attr/attr/x86-64
+    /opt/yocto/poky/meta/recipes-support/attr/files/x86-64
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/
+    /opt/yocto/poky/meta/recipes-support/attr/attr/
+    /opt/yocto/poky/meta/recipes-support/attr/files/
+DEBUG: Searching for attr-Missing-configure.ac.patch in paths:
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/poky
+    /opt/yocto/poky/meta/recipes-support/attr/attr/poky
+    /opt/yocto/poky/meta/recipes-support/attr/files/poky
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/
+    /opt/yocto/poky/meta/recipes-support/attr/attr/
+    /opt/yocto/poky/meta/recipes-support/attr/files/
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/x86-64
+    /opt/yocto/poky/meta/recipes-support/attr/attr/x86-64
+    /opt/yocto/poky/meta/recipes-support/attr/files/x86-64
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/
+    /opt/yocto/poky/meta/recipes-support/attr/attr/
+    /opt/yocto/poky/meta/recipes-support/attr/files/
+NOTE: Applying patch 'relative-libdir.patch' (../meta/recipes-support/attr/files/relative-libdir.patch)
+NOTE: Applying patch 'attr-Missing-configure.ac.patch' (../meta/recipes-support/attr/files/attr-Missing-configure.ac.patch)
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

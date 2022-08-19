@@ -1,0 +1,258 @@
+DEBUG: Executing python function do_fetch
+DEBUG: Executing python function base_do_fetch
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/autoconf/autoconf-2.69.tar.gz', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/autoconf/autoconf-2.69.tar.gz', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/autoconf/autoconf-2.69.tar.gz', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/autoconf/autoconf-2.69.tar.gz', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/autoconf/autoconf-2.69.tar.gz', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/autoconf/autoconf-2.69.tar.gz', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/autoconf/autoconf-2.69.tar.gz', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/autoconf/autoconf-2.69.tar.gz', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/autoconf/autoconf-2.69.tar.gz', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Fetching ftp://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz using command '/usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'ftp://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz''
+DEBUG: Fetcher accessed the network with the command /usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'ftp://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz'
+DEBUG: Running export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"; export PATH="/opt/yocto/poky/scripts/native-intercept:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin/texinfo-dummy-native:/opt/yocto/poky/scripts:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin/x86_64-linux:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/bin:/opt/yocto/poky/scripts:/opt/yocto/poky/bitbake/bin:/opt/yocto/poky/build/python-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin"; export HOME="/home/chung2"; /usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'ftp://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz'
+DEBUG: Searching for program_prefix.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'program_prefix.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'program_prefix.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'program_prefix.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'program_prefix.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'program_prefix.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'program_prefix.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'program_prefix.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'program_prefix.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'program_prefix.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for autoreconf-include.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'autoreconf-include.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-include.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-include.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-include.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-include.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-include.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-include.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-include.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-include.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for check-automake-cross-warning.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'check-automake-cross-warning.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'check-automake-cross-warning.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'check-automake-cross-warning.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'check-automake-cross-warning.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'check-automake-cross-warning.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'check-automake-cross-warning.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'check-automake-cross-warning.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'check-automake-cross-warning.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'check-automake-cross-warning.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for autoreconf-exclude.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'autoreconf-exclude.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-exclude.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-exclude.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-exclude.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-exclude.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-exclude.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-exclude.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-exclude.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-exclude.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for autoreconf-gnuconfigize.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'autoreconf-gnuconfigize.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-gnuconfigize.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-gnuconfigize.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-gnuconfigize.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-gnuconfigize.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-gnuconfigize.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-gnuconfigize.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-gnuconfigize.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autoreconf-gnuconfigize.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for config_site.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'config_site.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'config_site.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'config_site.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'config_site.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'config_site.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'config_site.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'config_site.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'config_site.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'config_site.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for remove-usr-local-lib-from-m4.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'remove-usr-local-lib-from-m4.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove-usr-local-lib-from-m4.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove-usr-local-lib-from-m4.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove-usr-local-lib-from-m4.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove-usr-local-lib-from-m4.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove-usr-local-lib-from-m4.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove-usr-local-lib-from-m4.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove-usr-local-lib-from-m4.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove-usr-local-lib-from-m4.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for preferbash.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'preferbash.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'preferbash.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'preferbash.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'preferbash.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'preferbash.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'preferbash.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'preferbash.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'preferbash.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'preferbash.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for autotest-automake-result-format.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'autotest-automake-result-format.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autotest-automake-result-format.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autotest-automake-result-format.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autotest-automake-result-format.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autotest-automake-result-format.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autotest-automake-result-format.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autotest-automake-result-format.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autotest-automake-result-format.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'autotest-automake-result-format.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for fix_path_xtra.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'fix_path_xtra.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix_path_xtra.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix_path_xtra.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix_path_xtra.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix_path_xtra.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix_path_xtra.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix_path_xtra.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix_path_xtra.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix_path_xtra.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Python function base_do_fetch finished
+DEBUG: Python function do_fetch finished

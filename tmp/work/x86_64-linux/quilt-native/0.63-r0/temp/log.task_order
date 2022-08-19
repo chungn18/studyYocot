@@ -1,0 +1,7 @@
+do_fetch (31637): log.do_fetch.31637
+do_unpack (31734): log.do_unpack.31734
+do_patch (31745): log.do_patch.31745
+do_configure (31758): log.do_configure.31758
+do_compile (32167): log.do_compile.32167
+do_install (32614): log.do_install.32614
+do_populate_sysroot (32678): log.do_populate_sysroot.32678

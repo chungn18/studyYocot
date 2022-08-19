@@ -1,0 +1,74 @@
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for configure.patch in paths:
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/files/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/
+    /opt/yocto/poky/meta/recipes-support/gmp/files/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/files/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/
+    /opt/yocto/poky/meta/recipes-support/gmp/files/
+DEBUG: Searching for amd64.patch in paths:
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/files/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/
+    /opt/yocto/poky/meta/recipes-support/gmp/files/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/files/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/
+    /opt/yocto/poky/meta/recipes-support/gmp/files/
+DEBUG: Searching for use-includedir.patch in paths:
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/files/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/
+    /opt/yocto/poky/meta/recipes-support/gmp/files/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/files/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/
+    /opt/yocto/poky/meta/recipes-support/gmp/files/
+DEBUG: Searching for append_user_provided_flags.patch in paths:
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/files/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/
+    /opt/yocto/poky/meta/recipes-support/gmp/files/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/files/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/
+    /opt/yocto/poky/meta/recipes-support/gmp/files/
+DEBUG: Searching for gmp-6.0.0-ppc64.patch in paths:
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/files/poky
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/
+    /opt/yocto/poky/meta/recipes-support/gmp/files/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/files/x86-64
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp-6.0.0/
+    /opt/yocto/poky/meta/recipes-support/gmp/gmp/
+    /opt/yocto/poky/meta/recipes-support/gmp/files/
+NOTE: Applying patch 'configure.patch' (../meta/recipes-support/gmp/gmp/configure.patch)
+NOTE: Applying patch 'amd64.patch' (../meta/recipes-support/gmp/gmp/amd64.patch)
+NOTE: Applying patch 'use-includedir.patch' (../meta/recipes-support/gmp/gmp/use-includedir.patch)
+NOTE: Applying patch 'append_user_provided_flags.patch' (../meta/recipes-support/gmp/gmp/append_user_provided_flags.patch)
+NOTE: Applying patch 'gmp-6.0.0-ppc64.patch' (../meta/recipes-support/gmp/gmp/gmp-6.0.0-ppc64.patch)
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

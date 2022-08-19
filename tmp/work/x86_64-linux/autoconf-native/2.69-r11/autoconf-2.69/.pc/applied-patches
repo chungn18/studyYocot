@@ -1,0 +1,10 @@
+program_prefix.patch
+autoreconf-include.patch
+check-automake-cross-warning.patch
+autoreconf-exclude.patch
+autoreconf-gnuconfigize.patch
+config_site.patch
+remove-usr-local-lib-from-m4.patch
+preferbash.patch
+autotest-automake-result-format.patch
+fix_path_xtra.patch

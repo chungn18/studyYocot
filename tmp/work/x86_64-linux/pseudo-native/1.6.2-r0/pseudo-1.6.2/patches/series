@@ -1,0 +1,3 @@
+0001-pseudo_client.c-protect-pwd_lck-against-magic.patch -p1
+0002-pseudo_util-modify-interface-to-pseudo_etc_file.patch -p1
+0003-pseudo_client.c-support-multiple-directories-in-PSEU.patch -p1

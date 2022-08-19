@@ -1,0 +1,30 @@
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for template.py in paths:
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-1.0/poky
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy/poky
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/files/poky
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-1.0/
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy/
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/files/
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-1.0/x86-64
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy/x86-64
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/files/x86-64
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-1.0/
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy/
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/files/
+DEBUG: Searching for COPYING in paths:
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-1.0/poky
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy/poky
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/files/poky
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-1.0/
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy/
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/files/
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-1.0/x86-64
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy/x86-64
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/files/x86-64
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-1.0/
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy/
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/files/
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

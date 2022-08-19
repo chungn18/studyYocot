@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660787027.73 
+gperf-native-3.0.4-r0: do_fetch: Elapsed time: 12.14 seconds 
+CPU usage: 0.2% 
+EndIOinProgress: 0
+EndReadsComp: 9360
+EndReadsMerged: 3312810
+EndSectRead: 19592
+EndSectWrite: 607632
+EndTimeIO: 29732
+EndTimeReads: 5730
+EndTimeWrite: 8897
+EndWTimeIO: 28489
+EndWritesComp: 8499
+StartIOinProgress: 0
+StartReadsComp: 9360
+StartReadsMerged: 3312786
+StartSectRead: 19581
+StartSectWrite: 588128
+StartTimeIO: 29600
+StartTimeReads: 5546
+StartTimeWrite: 8734
+StartWTimeIO: 28315
+StartWritesComp: 7999
+Status: PASSED 
+Ended: 1660787039.87 

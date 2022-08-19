@@ -1,0 +1,72 @@
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for 0001-pseudo_client.c-protect-pwd_lck-against-magic.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+DEBUG: Searching for 0002-pseudo_util-modify-interface-to-pseudo_etc_file.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+DEBUG: Searching for 0003-pseudo_client.c-support-multiple-directories-in-PSEU.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+DEBUG: Searching for fallback-passwd in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+DEBUG: Searching for fallback-group in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+NOTE: Applying patch '0001-pseudo_client.c-protect-pwd_lck-against-magic.patch' (../meta/recipes-devtools/pseudo/pseudo-1.6.2/0001-pseudo_client.c-protect-pwd_lck-against-magic.patch)
+NOTE: Applying patch '0002-pseudo_util-modify-interface-to-pseudo_etc_file.patch' (../meta/recipes-devtools/pseudo/pseudo-1.6.2/0002-pseudo_util-modify-interface-to-pseudo_etc_file.patch)
+NOTE: Applying patch '0003-pseudo_client.c-support-multiple-directories-in-PSEU.patch' (../meta/recipes-devtools/pseudo/pseudo-1.6.2/0003-pseudo_client.c-support-multiple-directories-in-PSEU.patch)
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

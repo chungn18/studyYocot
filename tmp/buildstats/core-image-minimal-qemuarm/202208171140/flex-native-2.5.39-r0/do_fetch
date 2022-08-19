@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660711238.12 
+flex-native-2.5.39-r0: do_fetch: Elapsed time: 47.57 seconds 
+CPU usage: 0.0% 
+EndIOinProgress: 0
+EndReadsComp: 16072
+EndReadsMerged: 7030370
+EndSectRead: 50673
+EndSectWrite: 10292104
+EndTimeIO: 184672
+EndTimeReads: 181795
+EndTimeWrite: 112254
+EndWTimeIO: 162927
+EndWritesComp: 236035
+StartIOinProgress: 0
+StartReadsComp: 16071
+StartReadsMerged: 7029538
+StartSectRead: 50625
+StartSectWrite: 10242792
+StartTimeIO: 184112
+StartTimeReads: 181335
+StartTimeWrite: 111878
+StartWTimeIO: 162504
+StartWritesComp: 231568
+Status: PASSED 
+Ended: 1660711285.69 

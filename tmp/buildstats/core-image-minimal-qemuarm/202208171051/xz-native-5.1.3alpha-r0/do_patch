@@ -1,0 +1,25 @@
+Event: TaskStarted 
+Started: 1660708368.84 
+xz-native-5.1.3alpha-r0: do_patch: Elapsed time: 0.01 seconds 
+EndIOinProgress: 0
+EndReadsComp: 14110
+EndReadsMerged: 6114354
+EndSectRead: 41738
+EndSectWrite: 8973592
+EndTimeIO: 152876
+EndTimeReads: 160468
+EndTimeWrite: 91016
+EndWTimeIO: 132754
+EndWritesComp: 184783
+StartIOinProgress: 0
+StartReadsComp: 14110
+StartReadsMerged: 6114354
+StartSectRead: 41738
+StartSectWrite: 8973592
+StartTimeIO: 152876
+StartTimeReads: 160468
+StartTimeWrite: 91016
+StartWTimeIO: 132754
+StartWritesComp: 184783
+Status: PASSED 
+Ended: 1660708368.85 

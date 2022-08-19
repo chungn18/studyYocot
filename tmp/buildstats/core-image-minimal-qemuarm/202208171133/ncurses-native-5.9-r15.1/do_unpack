@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660710786.18 
+ncurses-native-5.9-r15.1: do_unpack: Elapsed time: 0.26 seconds 
+CPU usage: 15.8% 
+EndIOinProgress: 0
+EndReadsComp: 15815
+EndReadsMerged: 6958298
+EndSectRead: 49164
+EndSectWrite: 9794568
+EndTimeIO: 178744
+EndTimeReads: 174772
+EndTimeWrite: 106866
+EndWTimeIO: 156031
+EndWritesComp: 216010
+StartIOinProgress: 0
+StartReadsComp: 15815
+StartReadsMerged: 6956530
+StartSectRead: 49129
+StartSectWrite: 9779776
+StartTimeIO: 178668
+StartTimeReads: 174710
+StartTimeWrite: 106812
+StartWTimeIO: 155941
+StartWritesComp: 214223
+Status: PASSED 
+Ended: 1660710786.44 

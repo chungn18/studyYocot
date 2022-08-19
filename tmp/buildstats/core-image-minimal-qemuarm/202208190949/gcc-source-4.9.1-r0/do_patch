@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660877399.98 
+gcc-source-4.9.1-r0: do_patch: Elapsed time: 9.21 seconds 
+CPU usage: 11.6% 
+EndIOinProgress: 0
+EndReadsComp: 10492
+EndReadsMerged: 4623330
+EndSectRead: 35628
+EndSectWrite: 4854792
+EndTimeIO: 124868
+EndTimeReads: 56826
+EndTimeWrite: 35254
+EndWTimeIO: 70882
+EndWritesComp: 156881
+StartIOinProgress: 0
+StartReadsComp: 10389
+StartReadsMerged: 4545066
+StartSectRead: 34503
+StartSectWrite: 4758488
+StartTimeIO: 122088
+StartTimeReads: 55555
+StartTimeWrite: 34216
+StartWTimeIO: 68720
+StartWritesComp: 153119
+Status: PASSED 
+Ended: 1660877409.19 

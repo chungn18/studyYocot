@@ -1,0 +1,25 @@
+Event: TaskStarted 
+Started: 1660711307.62 
+sqlite3-native-3_3.8.6.0-r0: do_patch: Elapsed time: 0.03 seconds 
+EndIOinProgress: 0
+EndReadsComp: 16073
+EndReadsMerged: 7030946
+EndSectRead: 50786
+EndSectWrite: 10298984
+EndTimeIO: 184892
+EndTimeReads: 181907
+EndTimeWrite: 112334
+EndWTimeIO: 163120
+EndWritesComp: 236390
+StartIOinProgress: 0
+StartReadsComp: 16073
+StartReadsMerged: 7030946
+StartSectRead: 50786
+StartSectWrite: 10297568
+StartTimeIO: 184888
+StartTimeReads: 181903
+StartTimeWrite: 112331
+StartWTimeIO: 163117
+StartWritesComp: 236218
+Status: PASSED 
+Ended: 1660711307.65 

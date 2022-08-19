@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660876388.61 
+gperf-native-3.0.4-r0: do_patch: Elapsed time: 0.03 seconds 
+CPU usage: 11.1% 
+EndIOinProgress: 0
+EndReadsComp: 9040
+EndReadsMerged: 2708434
+EndSectRead: 13615
+EndSectWrite: 691048
+EndTimeIO: 18932
+EndTimeReads: 3909
+EndTimeWrite: 5501
+EndWTimeIO: 19116
+EndWritesComp: 13474
+StartIOinProgress: 0
+StartReadsComp: 9040
+StartReadsMerged: 2704802
+StartSectRead: 13600
+StartSectWrite: 691048
+StartTimeIO: 18912
+StartTimeReads: 3909
+StartTimeWrite: 5501
+StartWTimeIO: 19102
+StartWritesComp: 13474
+Status: PASSED 
+Ended: 1660876388.64 

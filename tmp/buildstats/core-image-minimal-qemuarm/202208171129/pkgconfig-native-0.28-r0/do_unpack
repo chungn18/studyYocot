@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660710560.48 
+pkgconfig-native-0.28-r0: do_unpack: Elapsed time: 0.20 seconds 
+CPU usage: 11.8% 
+EndIOinProgress: 0
+EndReadsComp: 15810
+EndReadsMerged: 6951850
+EndSectRead: 48792
+EndSectWrite: 9673000
+EndTimeIO: 176908
+EndTimeReads: 173251
+EndTimeWrite: 105376
+EndWTimeIO: 154169
+EndWritesComp: 208073
+StartIOinProgress: 0
+StartReadsComp: 15810
+StartReadsMerged: 6951514
+StartSectRead: 48786
+StartSectWrite: 9666952
+StartTimeIO: 176884
+StartTimeReads: 173240
+StartTimeWrite: 105366
+StartWTimeIO: 154153
+StartWritesComp: 207328
+Status: PASSED 
+Ended: 1660710560.68 

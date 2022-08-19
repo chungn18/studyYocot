@@ -1,0 +1,33 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+NOTE: Unpacking /opt/yocto/poky/qemuarm/downloads/flex-2.5.39.tar.bz2 to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/flex-native/2.5.39-r0/
+DEBUG: Searching for run-ptest in paths:
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex-2.5.39/poky
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex/poky
+    /opt/yocto/poky/meta/recipes-devtools/flex/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex-2.5.39/
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex/
+    /opt/yocto/poky/meta/recipes-devtools/flex/files/
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex-2.5.39/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/flex/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex-2.5.39/
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex/
+    /opt/yocto/poky/meta/recipes-devtools/flex/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/flex/files/run-ptest to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/flex-native/2.5.39-r0/
+DEBUG: Searching for do_not_create_pdf_doc.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex-2.5.39/poky
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex/poky
+    /opt/yocto/poky/meta/recipes-devtools/flex/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex-2.5.39/
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex/
+    /opt/yocto/poky/meta/recipes-devtools/flex/files/
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex-2.5.39/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/flex/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex-2.5.39/
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex/
+    /opt/yocto/poky/meta/recipes-devtools/flex/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/flex/files/do_not_create_pdf_doc.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/flex-native/2.5.39-r0/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished

@@ -1,0 +1,11 @@
+trailingslash.patch
+rename-with-sysroot.patch
+use-sysroot-in-libpath.patch
+fix-final-rpath.patch
+avoid_absolute_paths_for_general_utils.patch
+fix-rpath.patch
+respect-fstack-protector.patch
+norm-rpath.patch
+dont-depend-on-help2man.patch
+fix-resolve-lt-sysroot.patch
+prefix.patch

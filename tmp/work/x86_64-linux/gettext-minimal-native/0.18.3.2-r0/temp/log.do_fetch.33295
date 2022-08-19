@@ -1,0 +1,137 @@
+DEBUG: Executing python function do_fetch
+DEBUG: Executing python function base_do_fetch
+DEBUG: Searching for aclocal.tgz in paths:
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/files/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'aclocal.tgz', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'aclocal.tgz', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'aclocal.tgz', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'aclocal.tgz', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'aclocal.tgz', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'aclocal.tgz', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'aclocal.tgz', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'aclocal.tgz', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'aclocal.tgz', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for config.rpath in paths:
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/files/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'config.rpath', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'config.rpath', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'config.rpath', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'config.rpath', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'config.rpath', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'config.rpath', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'config.rpath', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'config.rpath', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'config.rpath', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for Makefile.in.in in paths:
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/files/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'Makefile.in.in', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Makefile.in.in', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Makefile.in.in', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Makefile.in.in', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Makefile.in.in', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Makefile.in.in', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Makefile.in.in', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Makefile.in.in', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Makefile.in.in', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for remove-potcdate.sin in paths:
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/files/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'remove-potcdate.sin', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove-potcdate.sin', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove-potcdate.sin', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove-potcdate.sin', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove-potcdate.sin', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove-potcdate.sin', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove-potcdate.sin', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove-potcdate.sin', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove-potcdate.sin', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for COPYING in paths:
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/files/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+DEBUG: Searching for iconv-m4-remove-the-test-to-convert-euc-jp.patch in paths:
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/files/poky
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-0.18.3.2/
+    /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal/
+    /opt/yocto/poky/meta/recipes-core/gettext/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'iconv-m4-remove-the-test-to-convert-euc-jp.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'iconv-m4-remove-the-test-to-convert-euc-jp.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'iconv-m4-remove-the-test-to-convert-euc-jp.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'iconv-m4-remove-the-test-to-convert-euc-jp.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'iconv-m4-remove-the-test-to-convert-euc-jp.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'iconv-m4-remove-the-test-to-convert-euc-jp.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'iconv-m4-remove-the-test-to-convert-euc-jp.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'iconv-m4-remove-the-test-to-convert-euc-jp.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'iconv-m4-remove-the-test-to-convert-euc-jp.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Python function base_do_fetch finished
+DEBUG: Python function do_fetch finished

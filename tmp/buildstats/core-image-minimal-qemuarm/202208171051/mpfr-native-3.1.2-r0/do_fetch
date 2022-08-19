@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660708364.46 
+mpfr-native-3.1.2-r0: do_fetch: Elapsed time: 9.42 seconds 
+CPU usage: 0.2% 
+EndIOinProgress: 0
+EndReadsComp: 14187
+EndReadsMerged: 6124810
+EndSectRead: 41842
+EndSectWrite: 8974888
+EndTimeIO: 153340
+EndTimeReads: 160518
+EndTimeWrite: 91063
+EndWTimeIO: 132906
+EndWritesComp: 184895
+StartIOinProgress: 0
+StartReadsComp: 14110
+StartReadsMerged: 6114354
+StartSectRead: 41738
+StartSectWrite: 8969024
+StartTimeIO: 152860
+StartTimeReads: 160457
+StartTimeWrite: 90995
+StartWTimeIO: 132734
+StartWritesComp: 184700
+Status: PASSED 
+Ended: 1660708373.88 

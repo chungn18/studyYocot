@@ -1,0 +1,31 @@
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for run-ptest in paths:
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex-2.5.39/poky
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex/poky
+    /opt/yocto/poky/meta/recipes-devtools/flex/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex-2.5.39/
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex/
+    /opt/yocto/poky/meta/recipes-devtools/flex/files/
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex-2.5.39/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/flex/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex-2.5.39/
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex/
+    /opt/yocto/poky/meta/recipes-devtools/flex/files/
+DEBUG: Searching for do_not_create_pdf_doc.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex-2.5.39/poky
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex/poky
+    /opt/yocto/poky/meta/recipes-devtools/flex/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex-2.5.39/
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex/
+    /opt/yocto/poky/meta/recipes-devtools/flex/files/
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex-2.5.39/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/flex/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex-2.5.39/
+    /opt/yocto/poky/meta/recipes-devtools/flex/flex/
+    /opt/yocto/poky/meta/recipes-devtools/flex/files/
+NOTE: Applying patch 'do_not_create_pdf_doc.patch' (../meta/recipes-devtools/flex/files/do_not_create_pdf_doc.patch)
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

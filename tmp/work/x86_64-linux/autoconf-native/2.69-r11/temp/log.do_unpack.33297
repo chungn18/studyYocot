@@ -1,0 +1,145 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+NOTE: Unpacking /opt/yocto/poky/qemuarm/downloads/autoconf-2.69.tar.gz to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/autoconf-native/2.69-r11/
+DEBUG: Searching for program_prefix.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/program_prefix.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/autoconf-native/2.69-r11/
+DEBUG: Searching for autoreconf-include.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/autoreconf-include.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/autoconf-native/2.69-r11/
+DEBUG: Searching for check-automake-cross-warning.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/check-automake-cross-warning.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/autoconf-native/2.69-r11/
+DEBUG: Searching for autoreconf-exclude.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/autoreconf-exclude.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/autoconf-native/2.69-r11/
+DEBUG: Searching for autoreconf-gnuconfigize.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/autoreconf-gnuconfigize.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/autoconf-native/2.69-r11/
+DEBUG: Searching for config_site.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/config_site.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/autoconf-native/2.69-r11/
+DEBUG: Searching for remove-usr-local-lib-from-m4.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/remove-usr-local-lib-from-m4.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/autoconf-native/2.69-r11/
+DEBUG: Searching for preferbash.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/preferbash.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/autoconf-native/2.69-r11/
+DEBUG: Searching for autotest-automake-result-format.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/autotest-automake-result-format.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/autoconf-native/2.69-r11/
+DEBUG: Searching for fix_path_xtra.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf-2.69/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/
+    /opt/yocto/poky/meta/recipes-devtools/autoconf/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf/fix_path_xtra.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/autoconf-native/2.69-r11/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished

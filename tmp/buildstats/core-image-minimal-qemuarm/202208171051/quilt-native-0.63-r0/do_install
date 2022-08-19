@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660708305.16 
+quilt-native-0.63-r0: do_install: Elapsed time: 0.72 seconds 
+CPU usage: 19.1% 
+EndIOinProgress: 0
+EndReadsComp: 14110
+EndReadsMerged: 6113842
+EndSectRead: 41682
+EndSectWrite: 8931648
+EndTimeIO: 152504
+EndTimeReads: 160019
+EndTimeWrite: 90668
+EndWTimeIO: 132351
+EndWritesComp: 182730
+StartIOinProgress: 0
+StartReadsComp: 14110
+StartReadsMerged: 6113842
+StartSectRead: 41682
+StartSectWrite: 8930776
+StartTimeIO: 152492
+StartTimeReads: 160017
+StartTimeWrite: 90659
+StartWTimeIO: 132341
+StartWritesComp: 182623
+Status: PASSED 
+Ended: 1660708305.88 

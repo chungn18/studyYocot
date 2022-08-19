@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660710560.54 
+gmp-native-6.0.0-r0: do_unpack: Elapsed time: 0.97 seconds 
+CPU usage: 19.7% 
+EndIOinProgress: 0
+EndReadsComp: 15810
+EndReadsMerged: 6952634
+EndSectRead: 48805
+EndSectWrite: 9685304
+EndTimeIO: 176980
+EndTimeReads: 173299
+EndTimeWrite: 105395
+EndWTimeIO: 154201
+EndWritesComp: 209563
+StartIOinProgress: 0
+StartReadsComp: 15810
+StartReadsMerged: 6951538
+StartSectRead: 48787
+StartSectWrite: 9673000
+StartTimeIO: 176896
+StartTimeReads: 173251
+StartTimeWrite: 105376
+StartWTimeIO: 154163
+StartWritesComp: 208073
+Status: PASSED 
+Ended: 1660710561.51 

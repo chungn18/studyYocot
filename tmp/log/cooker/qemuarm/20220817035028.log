@@ -1,0 +1,177 @@
+WARNING: Host distribution "Ubuntu-22.04" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION        = "1.24.0"
+BUILD_SYS         = "x86_64-linux"
+NATIVELSBSTRING   = "Ubuntu-22.04"
+TARGET_SYS        = "arm-poky-linux-gnueabi"
+MACHINE           = "qemuarm"
+DISTRO            = "poky"
+DISTRO_VERSION    = "1.7.3"
+TUNE_FEATURES     = "arm armv5 thumb dsp"
+TARGET_FPU        = "soft"
+meta              
+meta-yocto        
+meta-yocto-bsp    = "dizzy:58863ad092c9a279e305c841dbb4353de2ecfae8"
+
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 1 of 2045 (ID: 18, /opt/yocto/poky/meta/recipes-devtools/quilt/quilt-native_0.63.bb, do_fetch)
+NOTE: Running task 2 of 2045 (ID: 348, /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb, do_fetch)
+NOTE: Running task 3 of 2045 (ID: 339, virtual:native:/opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config_20120814.bb, do_fetch)
+NOTE: Running task 4 of 2045 (ID: 907, /opt/yocto/poky/meta/recipes-devtools/m4/m4-native_1.4.17.bb, do_fetch)
+NOTE: recipe quilt-native-0.63-r0: task do_fetch: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_fetch: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_fetch: Succeeded
+NOTE: recipe gnu-config-native-20120814-r0: task do_fetch: Started
+NOTE: recipe m4-native-1.4.17-r0: task do_fetch: Started
+NOTE: Running task 5 of 2045 (ID: 344, /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb, do_unpack)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_unpack: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_unpack: Succeeded
+NOTE: Running task 6 of 2045 (ID: 312, virtual:native:/opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf_2.69.bb, do_fetch)
+NOTE: recipe autoconf-native-2.69-r11: task do_fetch: Started
+NOTE: recipe gnu-config-native-20120814-r0: task do_fetch: Succeeded
+NOTE: Running task 7 of 2045 (ID: 335, virtual:native:/opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config_20120814.bb, do_unpack)
+NOTE: recipe gnu-config-native-20120814-r0: task do_unpack: Started
+NOTE: recipe gnu-config-native-20120814-r0: task do_unpack: Succeeded
+NOTE: Running task 8 of 2045 (ID: 321, virtual:native:/opt/yocto/poky/meta/recipes-devtools/automake/automake_1.14.1.bb, do_fetch)
+NOTE: recipe automake-native-1.14.1-r0: task do_fetch: Started
+NOTE: recipe quilt-native-0.63-r0: task do_fetch: Succeeded
+NOTE: Running task 9 of 2045 (ID: 14, /opt/yocto/poky/meta/recipes-devtools/quilt/quilt-native_0.63.bb, do_unpack)
+NOTE: recipe quilt-native-0.63-r0: task do_unpack: Started
+NOTE: recipe quilt-native-0.63-r0: task do_unpack: Succeeded
+NOTE: Running task 10 of 2045 (ID: 15, /opt/yocto/poky/meta/recipes-devtools/quilt/quilt-native_0.63.bb, do_patch)
+NOTE: recipe quilt-native-0.63-r0: task do_patch: Started
+NOTE: recipe quilt-native-0.63-r0: task do_patch: Succeeded
+NOTE: Running task 11 of 2045 (ID: 19, /opt/yocto/poky/meta/recipes-devtools/quilt/quilt-native_0.63.bb, do_configure)
+NOTE: recipe quilt-native-0.63-r0: task do_configure: Started
+NOTE: recipe quilt-native-0.63-r0: task do_configure: Succeeded
+NOTE: Running task 12 of 2045 (ID: 20, /opt/yocto/poky/meta/recipes-devtools/quilt/quilt-native_0.63.bb, do_compile)
+NOTE: recipe quilt-native-0.63-r0: task do_compile: Started
+NOTE: recipe quilt-native-0.63-r0: task do_compile: Succeeded
+NOTE: Running task 13 of 2045 (ID: 16, /opt/yocto/poky/meta/recipes-devtools/quilt/quilt-native_0.63.bb, do_install)
+NOTE: recipe quilt-native-0.63-r0: task do_install: Started
+NOTE: recipe quilt-native-0.63-r0: task do_install: Succeeded
+NOTE: Running task 14 of 2045 (ID: 17, /opt/yocto/poky/meta/recipes-devtools/quilt/quilt-native_0.63.bb, do_populate_sysroot)
+NOTE: recipe quilt-native-0.63-r0: task do_populate_sysroot: Started
+NOTE: recipe quilt-native-0.63-r0: task do_populate_sysroot: Succeeded
+NOTE: Running task 15 of 2045 (ID: 345, /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb, do_patch)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_patch: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_patch: Succeeded
+NOTE: Running task 16 of 2045 (ID: 349, /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb, do_configure)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_configure: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_configure: Succeeded
+NOTE: Running task 17 of 2045 (ID: 350, /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb, do_compile)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_compile: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_compile: Succeeded
+NOTE: Running task 18 of 2045 (ID: 346, /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb, do_install)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_install: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_install: Succeeded
+NOTE: Running task 19 of 2045 (ID: 347, /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb, do_populate_sysroot)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_populate_sysroot: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_populate_sysroot: Succeeded
+NOTE: Running task 20 of 2045 (ID: 336, virtual:native:/opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config_20120814.bb, do_patch)
+NOTE: recipe gnu-config-native-20120814-r0: task do_patch: Started
+NOTE: recipe gnu-config-native-20120814-r0: task do_patch: Succeeded
+NOTE: Running task 21 of 2045 (ID: 340, virtual:native:/opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config_20120814.bb, do_configure)
+NOTE: recipe gnu-config-native-20120814-r0: task do_configure: Started
+NOTE: recipe gnu-config-native-20120814-r0: task do_configure: Succeeded
+NOTE: Running task 22 of 2045 (ID: 341, virtual:native:/opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config_20120814.bb, do_compile)
+NOTE: recipe gnu-config-native-20120814-r0: task do_compile: Started
+NOTE: recipe gnu-config-native-20120814-r0: task do_compile: Succeeded
+NOTE: Running task 23 of 2045 (ID: 337, virtual:native:/opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config_20120814.bb, do_install)
+NOTE: recipe gnu-config-native-20120814-r0: task do_install: Started
+NOTE: recipe gnu-config-native-20120814-r0: task do_install: Succeeded
+NOTE: Running task 24 of 2045 (ID: 338, virtual:native:/opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config_20120814.bb, do_populate_sysroot)
+NOTE: recipe gnu-config-native-20120814-r0: task do_populate_sysroot: Started
+NOTE: recipe gnu-config-native-20120814-r0: task do_populate_sysroot: Succeeded
+NOTE: Running task 25 of 2045 (ID: 330, /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-native_2.4.2.bb, do_fetch)
+NOTE: recipe libtool-native-2.4.2-r6.1: task do_fetch: Started
+NOTE: recipe automake-native-1.14.1-r0: task do_fetch: Succeeded
+NOTE: Running task 26 of 2045 (ID: 317, virtual:native:/opt/yocto/poky/meta/recipes-devtools/automake/automake_1.14.1.bb, do_unpack)
+NOTE: recipe automake-native-1.14.1-r0: task do_unpack: Started
+NOTE: recipe automake-native-1.14.1-r0: task do_unpack: Succeeded
+NOTE: Running task 27 of 2045 (ID: 318, virtual:native:/opt/yocto/poky/meta/recipes-devtools/automake/automake_1.14.1.bb, do_patch)
+NOTE: recipe automake-native-1.14.1-r0: task do_patch: Started
+NOTE: recipe automake-native-1.14.1-r0: task do_patch: Succeeded
+NOTE: Running task 28 of 2045 (ID: 583, /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-native_0.18.3.2.bb, do_fetch)
+NOTE: recipe gettext-minimal-native-0.18.3.2-r0: task do_fetch: Started
+NOTE: recipe gettext-minimal-native-0.18.3.2-r0: task do_fetch: Succeeded
+NOTE: Running task 29 of 2045 (ID: 579, /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-native_0.18.3.2.bb, do_unpack)
+NOTE: recipe autoconf-native-2.69-r11: task do_fetch: Succeeded
+NOTE: Running task 30 of 2045 (ID: 308, virtual:native:/opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf_2.69.bb, do_unpack)
+NOTE: recipe gettext-minimal-native-0.18.3.2-r0: task do_unpack: Started
+NOTE: recipe gettext-minimal-native-0.18.3.2-r0: task do_unpack: Succeeded
+NOTE: Running task 31 of 2045 (ID: 580, /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-native_0.18.3.2.bb, do_patch)
+NOTE: recipe autoconf-native-2.69-r11: task do_unpack: Started
+NOTE: recipe gettext-minimal-native-0.18.3.2-r0: task do_patch: Started
+NOTE: recipe gettext-minimal-native-0.18.3.2-r0: task do_patch: Succeeded
+NOTE: Running task 32 of 2045 (ID: 584, /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-native_0.18.3.2.bb, do_configure)
+NOTE: recipe autoconf-native-2.69-r11: task do_unpack: Succeeded
+NOTE: Running task 33 of 2045 (ID: 309, virtual:native:/opt/yocto/poky/meta/recipes-devtools/autoconf/autoconf_2.69.bb, do_patch)
+NOTE: recipe gettext-minimal-native-0.18.3.2-r0: task do_configure: Started
+NOTE: recipe autoconf-native-2.69-r11: task do_patch: Started
+NOTE: recipe gettext-minimal-native-0.18.3.2-r0: task do_configure: Succeeded
+NOTE: Running task 34 of 2045 (ID: 585, /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-native_0.18.3.2.bb, do_compile)
+NOTE: recipe gettext-minimal-native-0.18.3.2-r0: task do_compile: Started
+NOTE: recipe gettext-minimal-native-0.18.3.2-r0: task do_compile: Succeeded
+NOTE: Running task 35 of 2045 (ID: 581, /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-native_0.18.3.2.bb, do_install)
+NOTE: recipe gettext-minimal-native-0.18.3.2-r0: task do_install: Started
+NOTE: recipe autoconf-native-2.69-r11: task do_patch: Succeeded
+NOTE: Running task 36 of 2045 (ID: 294, virtual:native:/opt/yocto/poky/meta/recipes-extended/xz/xz_5.1.3alpha.bb, do_fetch)
+NOTE: recipe gettext-minimal-native-0.18.3.2-r0: task do_install: Succeeded
+NOTE: Running task 37 of 2045 (ID: 582, /opt/yocto/poky/meta/recipes-core/gettext/gettext-minimal-native_0.18.3.2.bb, do_populate_sysroot)
+NOTE: recipe gettext-minimal-native-0.18.3.2-r0: task do_populate_sysroot: Started
+NOTE: recipe xz-native-5.1.3alpha-r0: task do_fetch: Started
+NOTE: recipe gettext-minimal-native-0.18.3.2-r0: task do_populate_sysroot: Succeeded
+NOTE: Running task 38 of 2045 (ID: 962, virtual:native:/opt/yocto/poky/meta/recipes-support/gmp/gmp_6.0.0.bb, do_fetch)
+NOTE: recipe gmp-native-6.0.0-r0: task do_fetch: Started
+NOTE: recipe libtool-native-2.4.2-r6.1: task do_fetch: Succeeded
+NOTE: Running task 39 of 2045 (ID: 326, /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-native_2.4.2.bb, do_unpack)
+NOTE: recipe libtool-native-2.4.2-r6.1: task do_unpack: Started
+NOTE: recipe libtool-native-2.4.2-r6.1: task do_unpack: Succeeded
+NOTE: Running task 40 of 2045 (ID: 327, /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-native_2.4.2.bb, do_patch)
+NOTE: recipe libtool-native-2.4.2-r6.1: task do_patch: Started
+NOTE: recipe libtool-native-2.4.2-r6.1: task do_patch: Succeeded
+NOTE: Running task 41 of 2045 (ID: 303, virtual:native:/opt/yocto/poky/meta/recipes-core/zlib/zlib_1.2.8.bb, do_fetch)
+NOTE: recipe zlib-native-1.2.8-r0: task do_fetch: Started
+WARNING: Failed to fetch URL http://www.zlib.net/zlib-1.2.8.tar.xz, attempting MIRRORS if available
+NOTE: recipe zlib-native-1.2.8-r0: task do_fetch: Succeeded
+NOTE: Running task 42 of 2045 (ID: 953, virtual:native:/opt/yocto/poky/meta/recipes-support/mpfr/mpfr_3.1.2.bb, do_fetch)
+NOTE: recipe mpfr-native-3.1.2-r0: task do_fetch: Started
+NOTE: recipe xz-native-5.1.3alpha-r0: task do_fetch: Succeeded
+NOTE: Running task 43 of 2045 (ID: 290, virtual:native:/opt/yocto/poky/meta/recipes-extended/xz/xz_5.1.3alpha.bb, do_unpack)
+NOTE: recipe xz-native-5.1.3alpha-r0: task do_unpack: Started
+NOTE: recipe xz-native-5.1.3alpha-r0: task do_unpack: Succeeded
+NOTE: Running task 44 of 2045 (ID: 291, virtual:native:/opt/yocto/poky/meta/recipes-extended/xz/xz_5.1.3alpha.bb, do_patch)
+NOTE: recipe xz-native-5.1.3alpha-r0: task do_patch: Started
+NOTE: recipe xz-native-5.1.3alpha-r0: task do_patch: Succeeded
+NOTE: Running task 45 of 2045 (ID: 946, /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-source_4.9.bb, do_fetch)
+NOTE: recipe gcc-source-4.9.1-r0: task do_fetch: Started
+NOTE: recipe m4-native-1.4.17-r0: task do_fetch: Succeeded
+NOTE: Running task 46 of 2045 (ID: 903, /opt/yocto/poky/meta/recipes-devtools/m4/m4-native_1.4.17.bb, do_unpack)
+NOTE: recipe m4-native-1.4.17-r0: task do_unpack: Started
+NOTE: recipe m4-native-1.4.17-r0: task do_unpack: Succeeded
+NOTE: Running task 47 of 2045 (ID: 904, /opt/yocto/poky/meta/recipes-devtools/m4/m4-native_1.4.17.bb, do_patch)
+NOTE: recipe m4-native-1.4.17-r0: task do_patch: Started
+NOTE: recipe m4-native-1.4.17-r0: task do_patch: Succeeded
+NOTE: Running task 48 of 2045 (ID: 908, /opt/yocto/poky/meta/recipes-devtools/m4/m4-native_1.4.17.bb, do_configure)
+NOTE: recipe m4-native-1.4.17-r0: task do_configure: Started
+NOTE: recipe mpfr-native-3.1.2-r0: task do_fetch: Succeeded
+NOTE: Running task 49 of 2045 (ID: 700, virtual:native:/opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig_0.28.bb, do_fetch)
+NOTE: recipe pkgconfig-native-0.28-r0: task do_fetch: Started
+NOTE: recipe m4-native-1.4.17-r0: task do_configure: Succeeded
+NOTE: Running task 50 of 2045 (ID: 909, /opt/yocto/poky/meta/recipes-devtools/m4/m4-native_1.4.17.bb, do_compile)
+NOTE: recipe m4-native-1.4.17-r0: task do_compile: Started
+ERROR: Function failed: do_compile (log file is located at /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/temp/log.do_compile.40241)
+ERROR: Logfile of failure stored in: /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/temp/log.do_compile.40241
+NOTE: recipe m4-native-1.4.17-r0: task do_compile: Failed
+ERROR: Task 909 (/opt/yocto/poky/meta/recipes-devtools/m4/m4-native_1.4.17.bb, do_compile) failed with exit code '1'
+NOTE: Running task 51 of 2045 (ID: 461, virtual:native:/opt/yocto/poky/meta/recipes-core/ncurses/ncurses_5.9.bb, do_fetch)
+NOTE: recipe ncurses-native-5.9-r15.1: task do_fetch: Started
+NOTE: recipe pkgconfig-native-0.28-r0: task do_fetch: Succeeded
+WARNING: Failed to fetch URL ftp://ftp.gmplib.org/pub/gmp-6.0.0/gmp-6.0.0a.tar.bz2, attempting MIRRORS if available
+NOTE: recipe ncurses-native-5.9-r15.1: task do_fetch: Succeeded
+NOTE: recipe gmp-native-6.0.0-r0: task do_fetch: Succeeded

@@ -1,0 +1,14 @@
+do_fetch (31640): log.do_fetch.31640
+do_unpack (34891): log.do_unpack.34891
+do_patch (34900): log.do_patch.34900
+do_configure (35016): log.do_configure.35016
+do_compile (40241): log.do_compile.40241
+do_compile (42511): log.do_compile.42511
+do_compile (43073): log.do_compile.43073
+do_compile (43955): log.do_compile.43955
+do_compile (44366): log.do_compile.44366
+do_compile (45593): log.do_compile.45593
+do_compile (46006): log.do_compile.46006
+do_compile (4289): log.do_compile.4289
+do_compile (3121): log.do_compile.3121
+do_compile (5966): log.do_compile.5966

@@ -1,0 +1,337 @@
+DEBUG: Executing python function do_fetch
+DEBUG: Executing python function base_do_fetch
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Fetching http://www.zlib.net/zlib-1.2.8.tar.xz using command '/usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'http://www.zlib.net/zlib-1.2.8.tar.xz''
+DEBUG: Fetcher accessed the network with the command /usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'http://www.zlib.net/zlib-1.2.8.tar.xz'
+DEBUG: Running export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"; export PATH="/opt/yocto/poky/scripts/native-intercept:/opt/yocto/poky/scripts:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin/x86_64-linux:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/bin:/opt/yocto/poky/scripts:/opt/yocto/poky/bitbake/bin:/opt/yocto/poky/build/python-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin"; export HOME="/home/chung2"; /usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'http://www.zlib.net/zlib-1.2.8.tar.xz'
+WARNING: Failed to fetch URL http://www.zlib.net/zlib-1.2.8.tar.xz, attempting MIRRORS if available
+DEBUG: Fetcher failure: Fetch command failed with exit code 8, output:
+http://www.zlib.net/zlib-1.2.8.tar.xz:
+2022-08-17 10:52:41 ERROR 404: Not Found.
+
+DEBUG: Trying MIRRORS
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url http://www.zlib.net/zlib-1.2.8.tar.xz returning http://downloads.yoctoproject.org/mirror/sources/zlib-1.2.8.tar.xz
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['https', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['http', 'snapshot.debian.org', '/archive/debian-archive/20120328T092752Z/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['http', 'snapshot.debian.org', '/archive/debian-archive/20110127T084257Z/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['http', 'snapshot.debian.org', '/archive/debian-archive/20090802T004153Z/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.de.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.au.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.cl.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.hr.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.fi.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.hk.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.hu.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.ie.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.it.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.jp.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.no.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.pl.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.ro.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.si.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.es.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.se.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.tr.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnu.org', '/gnu', '', '', {}] to ['ftp', 'mirrors.kernel.org', '/gnu', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'kernel.org', '/pub', '', '', {}] to ['http', 'www.kernel.org', '/pub', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnupg.org', '/gcrypt/', '', '', {}] to ['ftp', 'ftp.franken.de', '/pub/crypt/mirror/ftp.gnupg.org/gcrypt/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnupg.org', '/gcrypt/', '', '', {}] to ['ftp', 'ftp.surfnet.nl', '/pub/security/gnupg/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnupg.org', '/gcrypt/', '', '', {}] to ['http', 'gulus.USherbrooke.ca', '/pub/appl/GnuPG/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'dante.ctan.org', '/tex-archive', '', '', {}] to ['ftp', 'ftp.fu-berlin.de', '/tex/CTAN', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'dante.ctan.org', '/tex-archive', '', '', {}] to ['http', 'sunsite.sut.ac.jp', '/pub/archives/ctan/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'dante.ctan.org', '/tex-archive', '', '', {}] to ['http', 'ctan.unsw.edu.au', '/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnutls.org', '/pub/gnutls', '', '', {}] to ['ftp', 'ftp.gnupg.org', '/gcrypt/gnutls/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnutls.org', '/pub/gnutls', '', '', {}] to ['http', 'www.mirrors.wiretapped.net', '/security/network-security/gnutls/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnutls.org', '/pub/gnutls', '', '', {}] to ['ftp', 'ftp.mirrors.wiretapped.net', '/pub/security/network-security/gnutls/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnutls.org', '/pub/gnutls', '', '', {}] to ['http', 'josefsson.org', '/gnutls/releases/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'ftp.info-zip.org', '/pub/infozip/src/', '', '', {}] to ['http', 'mirror.switch.ch', '/ftp/mirror/infozip/src/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'ftp.info-zip.org', '/pub/infozip/src/', '', '', {}] to ['ftp', 'sunsite.icm.edu.pl', '/pub/unix/archiving/info-zip/src/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.cerias.purdue.edu', '/pub/tools/unix/sysutils/lsof/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.tau.ac.il', '/pub/unix/admin/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.cert.dfn.de', '/pub/tools/admin/lsof/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.fu-berlin.de', '/pub/unix/tools/lsof/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.kaizo.org', '/pub/lsof/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.tu-darmstadt.de', '/pub/sysadmin/lsof/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.tux.org', '/pub/sites/vic.cc.purdue.edu/tools/unix/lsof/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'gd.tuwien.ac.at', '/utils/admin-tools/lsof/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'sunsite.ualberta.ca', '/pub/Mirror/lsof/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'the.wiretapped.net', '/pub/security/host-security/lsof/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'www.apache.org', '/dist', '', '', {}] to ['http', 'archive.apache.org', '/dist', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'downloads.sourceforge.net', '/watchdog/', '', '', {}] to ['http', 'fossies.org', '/linux/misc/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'download.savannah.gnu.org', '/releases', '', '', {}] to ['http', 'download-mirror.savannah.gnu.org', '/releases', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'download.savannah.nongnu.org', '/releases', '', '', {}] to ['http', 'download-mirror.savannah.nongnu.org', '/releases', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['https?$', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['https?$', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url http://downloads.yoctoproject.org/mirror/sources/zlib-1.2.8.tar.xz returning http://sources.openembedded.org/zlib-1.2.8.tar.xz
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url http://sources.openembedded.org/zlib-1.2.8.tar.xz returning http://downloads.yoctoproject.org/mirror/sources/zlib-1.2.8.tar.xz
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['https', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['http', 'snapshot.debian.org', '/archive/debian-archive/20120328T092752Z/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['http', 'snapshot.debian.org', '/archive/debian-archive/20110127T084257Z/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['http', 'snapshot.debian.org', '/archive/debian-archive/20090802T004153Z/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.de.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.au.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.cl.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.hr.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.fi.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.hk.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.hu.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.ie.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.it.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.jp.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.no.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.pl.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.ro.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.si.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.es.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.se.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.tr.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnu.org', '/gnu', '', '', {}] to ['ftp', 'mirrors.kernel.org', '/gnu', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'kernel.org', '/pub', '', '', {}] to ['http', 'www.kernel.org', '/pub', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnupg.org', '/gcrypt/', '', '', {}] to ['ftp', 'ftp.franken.de', '/pub/crypt/mirror/ftp.gnupg.org/gcrypt/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnupg.org', '/gcrypt/', '', '', {}] to ['ftp', 'ftp.surfnet.nl', '/pub/security/gnupg/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnupg.org', '/gcrypt/', '', '', {}] to ['http', 'gulus.USherbrooke.ca', '/pub/appl/GnuPG/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'dante.ctan.org', '/tex-archive', '', '', {}] to ['ftp', 'ftp.fu-berlin.de', '/tex/CTAN', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'dante.ctan.org', '/tex-archive', '', '', {}] to ['http', 'sunsite.sut.ac.jp', '/pub/archives/ctan/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'dante.ctan.org', '/tex-archive', '', '', {}] to ['http', 'ctan.unsw.edu.au', '/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnutls.org', '/pub/gnutls', '', '', {}] to ['ftp', 'ftp.gnupg.org', '/gcrypt/gnutls/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnutls.org', '/pub/gnutls', '', '', {}] to ['http', 'www.mirrors.wiretapped.net', '/security/network-security/gnutls/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnutls.org', '/pub/gnutls', '', '', {}] to ['ftp', 'ftp.mirrors.wiretapped.net', '/pub/security/network-security/gnutls/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnutls.org', '/pub/gnutls', '', '', {}] to ['http', 'josefsson.org', '/gnutls/releases/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'ftp.info-zip.org', '/pub/infozip/src/', '', '', {}] to ['http', 'mirror.switch.ch', '/ftp/mirror/infozip/src/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'ftp.info-zip.org', '/pub/infozip/src/', '', '', {}] to ['ftp', 'sunsite.icm.edu.pl', '/pub/unix/archiving/info-zip/src/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.cerias.purdue.edu', '/pub/tools/unix/sysutils/lsof/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.tau.ac.il', '/pub/unix/admin/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.cert.dfn.de', '/pub/tools/admin/lsof/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.fu-berlin.de', '/pub/unix/tools/lsof/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.kaizo.org', '/pub/lsof/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.tu-darmstadt.de', '/pub/sysadmin/lsof/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.tux.org', '/pub/sites/vic.cc.purdue.edu/tools/unix/lsof/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'gd.tuwien.ac.at', '/utils/admin-tools/lsof/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'sunsite.ualberta.ca', '/pub/Mirror/lsof/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'the.wiretapped.net', '/pub/security/host-security/lsof/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'www.apache.org', '/dist', '', '', {}] to ['http', 'archive.apache.org', '/dist', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'downloads.sourceforge.net', '/watchdog/', '', '', {}] to ['http', 'fossies.org', '/linux/misc/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'download.savannah.gnu.org', '/releases', '', '', {}] to ['http', 'download-mirror.savannah.gnu.org', '/releases', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'download.savannah.nongnu.org', '/releases', '', '', {}] to ['http', 'download-mirror.savannah.nongnu.org', '/releases', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['https?$', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url http://sources.openembedded.org/zlib-1.2.8.tar.xz returning http://downloads.yoctoproject.org/mirror/sources/zlib-1.2.8.tar.xz
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['https?$', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'search.cpan.org', '/CPAN', '', '', {}] to ['http', 'cpan.metacpan.org', '/', '', '', {}]
+DEBUG: For url ['http', 'sources.openembedded.org', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'search.cpan.org', '/CPAN', '', '', {}] to ['http', 'search.cpan.org', '/CPAN/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'search.cpan.org', '/CPAN', '', '', {}] to ['http', 'cpan.metacpan.org', '/', '', '', {}]
+DEBUG: For url ['http', 'downloads.yoctoproject.org', '/mirror/sources/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'search.cpan.org', '/CPAN', '', '', {}] to ['http', 'search.cpan.org', '/CPAN/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['https', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['http', 'snapshot.debian.org', '/archive/debian-archive/20120328T092752Z/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['http', 'snapshot.debian.org', '/archive/debian-archive/20110127T084257Z/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['http', 'snapshot.debian.org', '/archive/debian-archive/20090802T004153Z/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.de.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.au.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.cl.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.hr.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.fi.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.hk.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.hu.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.ie.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.it.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.jp.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.no.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.pl.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.ro.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.si.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.es.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.se.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.debian.org', '/debian/pool', '', '', {}] to ['ftp', 'ftp.tr.debian.org', '/debian/pool', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnu.org', '/gnu', '', '', {}] to ['ftp', 'mirrors.kernel.org', '/gnu', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'kernel.org', '/pub', '', '', {}] to ['http', 'www.kernel.org', '/pub', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnupg.org', '/gcrypt/', '', '', {}] to ['ftp', 'ftp.franken.de', '/pub/crypt/mirror/ftp.gnupg.org/gcrypt/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnupg.org', '/gcrypt/', '', '', {}] to ['ftp', 'ftp.surfnet.nl', '/pub/security/gnupg/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnupg.org', '/gcrypt/', '', '', {}] to ['http', 'gulus.USherbrooke.ca', '/pub/appl/GnuPG/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'dante.ctan.org', '/tex-archive', '', '', {}] to ['ftp', 'ftp.fu-berlin.de', '/tex/CTAN', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'dante.ctan.org', '/tex-archive', '', '', {}] to ['http', 'sunsite.sut.ac.jp', '/pub/archives/ctan/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'dante.ctan.org', '/tex-archive', '', '', {}] to ['http', 'ctan.unsw.edu.au', '/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnutls.org', '/pub/gnutls', '', '', {}] to ['ftp', 'ftp.gnupg.org', '/gcrypt/gnutls/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnutls.org', '/pub/gnutls', '', '', {}] to ['http', 'www.mirrors.wiretapped.net', '/security/network-security/gnutls/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnutls.org', '/pub/gnutls', '', '', {}] to ['ftp', 'ftp.mirrors.wiretapped.net', '/pub/security/network-security/gnutls/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'ftp.gnutls.org', '/pub/gnutls', '', '', {}] to ['http', 'josefsson.org', '/gnutls/releases/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'ftp.info-zip.org', '/pub/infozip/src/', '', '', {}] to ['http', 'mirror.switch.ch', '/ftp/mirror/infozip/src/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'ftp.info-zip.org', '/pub/infozip/src/', '', '', {}] to ['ftp', 'sunsite.icm.edu.pl', '/pub/unix/archiving/info-zip/src/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.cerias.purdue.edu', '/pub/tools/unix/sysutils/lsof/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.tau.ac.il', '/pub/unix/admin/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.cert.dfn.de', '/pub/tools/admin/lsof/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.fu-berlin.de', '/pub/unix/tools/lsof/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.kaizo.org', '/pub/lsof/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.tu-darmstadt.de', '/pub/sysadmin/lsof/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'ftp.tux.org', '/pub/sites/vic.cc.purdue.edu/tools/unix/lsof/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'gd.tuwien.ac.at', '/utils/admin-tools/lsof/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'sunsite.ualberta.ca', '/pub/Mirror/lsof/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', 'lsof.itap.purdue.edu', '/pub/tools/unix/lsof/', '', '', {}] to ['ftp', 'the.wiretapped.net', '/pub/security/host-security/lsof/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'www.apache.org', '/dist', '', '', {}] to ['http', 'archive.apache.org', '/dist', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'downloads.sourceforge.net', '/watchdog/', '', '', {}] to ['http', 'fossies.org', '/linux/misc/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'download.savannah.gnu.org', '/releases', '', '', {}] to ['http', 'download-mirror.savannah.gnu.org', '/releases', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'download.savannah.nongnu.org', '/releases', '', '', {}] to ['http', 'download-mirror.savannah.nongnu.org', '/releases', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['https?$', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url http://www.zlib.net/zlib-1.2.8.tar.xz returning http://downloads.yoctoproject.org/mirror/sources/zlib-1.2.8.tar.xz
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['https?$', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url http://www.zlib.net/zlib-1.2.8.tar.xz returning http://sources.openembedded.org/zlib-1.2.8.tar.xz
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['ftp', '.*', '/.*', '', '', {}] to ['http', 'sources.openembedded.org', '/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'search.cpan.org', '/CPAN', '', '', {}] to ['http', 'cpan.metacpan.org', '/', '', '', {}]
+DEBUG: For url ['http', 'www.zlib.net', '/zlib-1.2.8.tar.xz', '', '', {}] comparing ['http', 'search.cpan.org', '/CPAN', '', '', {}] to ['http', 'search.cpan.org', '/CPAN/', '', '', {}]
+DEBUG: Fetching http://downloads.yoctoproject.org/mirror/sources/zlib-1.2.8.tar.xz using command '/usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'http://downloads.yoctoproject.org/mirror/sources/zlib-1.2.8.tar.xz''
+DEBUG: Fetcher accessed the network with the command /usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'http://downloads.yoctoproject.org/mirror/sources/zlib-1.2.8.tar.xz'
+DEBUG: Running export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"; export PATH="/opt/yocto/poky/scripts/native-intercept:/opt/yocto/poky/scripts:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin/x86_64-linux:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/bin:/opt/yocto/poky/scripts:/opt/yocto/poky/bitbake/bin:/opt/yocto/poky/build/python-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin"; export HOME="/home/chung2"; /usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'http://downloads.yoctoproject.org/mirror/sources/zlib-1.2.8.tar.xz'
+DEBUG: Searching for remove.ldconfig.call.patch in paths:
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib-1.2.8/poky
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib/poky
+    /opt/yocto/poky/meta/recipes-core/zlib/files/poky
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib-1.2.8/
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib/
+    /opt/yocto/poky/meta/recipes-core/zlib/files/
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib-1.2.8/x86-64
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib/x86-64
+    /opt/yocto/poky/meta/recipes-core/zlib/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib-1.2.8/
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib/
+    /opt/yocto/poky/meta/recipes-core/zlib/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'remove.ldconfig.call.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove.ldconfig.call.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove.ldconfig.call.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove.ldconfig.call.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove.ldconfig.call.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove.ldconfig.call.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove.ldconfig.call.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove.ldconfig.call.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'remove.ldconfig.call.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for Makefile-runtests.patch in paths:
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib-1.2.8/poky
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib/poky
+    /opt/yocto/poky/meta/recipes-core/zlib/files/poky
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib-1.2.8/
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib/
+    /opt/yocto/poky/meta/recipes-core/zlib/files/
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib-1.2.8/x86-64
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib/x86-64
+    /opt/yocto/poky/meta/recipes-core/zlib/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib-1.2.8/
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib/
+    /opt/yocto/poky/meta/recipes-core/zlib/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'Makefile-runtests.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Makefile-runtests.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Makefile-runtests.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Makefile-runtests.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Makefile-runtests.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Makefile-runtests.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Makefile-runtests.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Makefile-runtests.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'Makefile-runtests.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for ldflags-tests.patch in paths:
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib-1.2.8/poky
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib/poky
+    /opt/yocto/poky/meta/recipes-core/zlib/files/poky
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib-1.2.8/
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib/
+    /opt/yocto/poky/meta/recipes-core/zlib/files/
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib-1.2.8/x86-64
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib/x86-64
+    /opt/yocto/poky/meta/recipes-core/zlib/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib-1.2.8/
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib/
+    /opt/yocto/poky/meta/recipes-core/zlib/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ldflags-tests.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'ldflags-tests.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'ldflags-tests.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'ldflags-tests.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'ldflags-tests.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'ldflags-tests.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'ldflags-tests.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'ldflags-tests.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'ldflags-tests.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for run-ptest in paths:
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib-1.2.8/poky
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib/poky
+    /opt/yocto/poky/meta/recipes-core/zlib/files/poky
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib-1.2.8/
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib/
+    /opt/yocto/poky/meta/recipes-core/zlib/files/
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib-1.2.8/x86-64
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib/x86-64
+    /opt/yocto/poky/meta/recipes-core/zlib/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib-1.2.8/
+    /opt/yocto/poky/meta/recipes-core/zlib/zlib/
+    /opt/yocto/poky/meta/recipes-core/zlib/files/
+DEBUG: Python function base_do_fetch finished
+DEBUG: Python function do_fetch finished

@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660787027.74 
+libmpc-native-1.0.2-r0: do_patch: Elapsed time: 0.02 seconds 
+CPU usage: 28.6% 
+EndIOinProgress: 0
+EndReadsComp: 9360
+EndReadsMerged: 3312786
+EndSectRead: 19581
+EndSectWrite: 588128
+EndTimeIO: 29600
+EndTimeReads: 5546
+EndTimeWrite: 8734
+EndWTimeIO: 28315
+EndWritesComp: 7999
+StartIOinProgress: 0
+StartReadsComp: 9360
+StartReadsMerged: 3312786
+StartSectRead: 19581
+StartSectWrite: 588128
+StartTimeIO: 29600
+StartTimeReads: 5546
+StartTimeWrite: 8734
+StartWTimeIO: 28315
+StartWritesComp: 7999
+Status: PASSED 
+Ended: 1660787027.76 

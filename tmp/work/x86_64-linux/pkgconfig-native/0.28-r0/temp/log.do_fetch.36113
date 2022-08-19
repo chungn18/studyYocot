@@ -1,0 +1,90 @@
+DEBUG: Executing python function do_fetch
+DEBUG: Executing python function base_do_fetch
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['http', 'pkgconfig.freedesktop.org', '/releases/pkg-config-0.28.tar.gz', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'pkgconfig.freedesktop.org', '/releases/pkg-config-0.28.tar.gz', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'pkgconfig.freedesktop.org', '/releases/pkg-config-0.28.tar.gz', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'pkgconfig.freedesktop.org', '/releases/pkg-config-0.28.tar.gz', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'pkgconfig.freedesktop.org', '/releases/pkg-config-0.28.tar.gz', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'pkgconfig.freedesktop.org', '/releases/pkg-config-0.28.tar.gz', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'pkgconfig.freedesktop.org', '/releases/pkg-config-0.28.tar.gz', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'pkgconfig.freedesktop.org', '/releases/pkg-config-0.28.tar.gz', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'pkgconfig.freedesktop.org', '/releases/pkg-config-0.28.tar.gz', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Fetching http://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz using command '/usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'http://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz''
+DEBUG: Fetcher accessed the network with the command /usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'http://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz'
+DEBUG: Running export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"; export PATH="/opt/yocto/poky/scripts/native-intercept:/opt/yocto/poky/scripts:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin/x86_64-linux:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/bin:/opt/yocto/poky/scripts:/opt/yocto/poky/bitbake/bin:/opt/yocto/poky/build/python-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin"; export HOME="/home/chung2"; /usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'http://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz'
+DEBUG: Searching for pkg-config-native.in in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/poky
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/poky
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'pkg-config-native.in', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'pkg-config-native.in', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'pkg-config-native.in', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'pkg-config-native.in', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'pkg-config-native.in', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'pkg-config-native.in', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'pkg-config-native.in', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'pkg-config-native.in', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'pkg-config-native.in', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for fix-glib-configure-libtool-usage.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/poky
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/poky
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'fix-glib-configure-libtool-usage.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-glib-configure-libtool-usage.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-glib-configure-libtool-usage.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-glib-configure-libtool-usage.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-glib-configure-libtool-usage.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-glib-configure-libtool-usage.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-glib-configure-libtool-usage.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-glib-configure-libtool-usage.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-glib-configure-libtool-usage.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for obsolete_automake_macros.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/poky
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/poky
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'obsolete_automake_macros.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'obsolete_automake_macros.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'obsolete_automake_macros.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'obsolete_automake_macros.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'obsolete_automake_macros.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'obsolete_automake_macros.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'obsolete_automake_macros.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'obsolete_automake_macros.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'obsolete_automake_macros.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Python function base_do_fetch finished
+DEBUG: Python function do_fetch finished

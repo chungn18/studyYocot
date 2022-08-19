@@ -1,0 +1,31 @@
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for tic-hang.patch in paths:
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses-5.9/poky
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses/poky
+    /opt/yocto/poky/meta/recipes-core/ncurses/files/poky
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses-5.9/
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses/
+    /opt/yocto/poky/meta/recipes-core/ncurses/files/
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses-5.9/x86-64
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses/x86-64
+    /opt/yocto/poky/meta/recipes-core/ncurses/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses-5.9/
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses/
+    /opt/yocto/poky/meta/recipes-core/ncurses/files/
+DEBUG: Searching for config.cache in paths:
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses-5.9/poky
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses/poky
+    /opt/yocto/poky/meta/recipes-core/ncurses/files/poky
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses-5.9/
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses/
+    /opt/yocto/poky/meta/recipes-core/ncurses/files/
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses-5.9/x86-64
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses/x86-64
+    /opt/yocto/poky/meta/recipes-core/ncurses/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses-5.9/
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses/
+    /opt/yocto/poky/meta/recipes-core/ncurses/files/
+NOTE: Applying patch 'tic-hang.patch' (../meta/recipes-core/ncurses/ncurses-5.9/tic-hang.patch)
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

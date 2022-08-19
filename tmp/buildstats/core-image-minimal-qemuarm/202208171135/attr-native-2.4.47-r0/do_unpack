@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660710939.50 
+attr-native-2.4.47-r0: do_unpack: Elapsed time: 0.15 seconds 
+CPU usage: 10.2% 
+EndIOinProgress: 0
+EndReadsComp: 15840
+EndReadsMerged: 6973946
+EndSectRead: 49845
+EndSectWrite: 10183144
+EndTimeIO: 180952
+EndTimeReads: 179367
+EndTimeWrite: 109563
+EndWTimeIO: 159409
+EndWritesComp: 227987
+StartIOinProgress: 0
+StartReadsComp: 15840
+StartReadsMerged: 6973946
+StartSectRead: 49845
+StartSectWrite: 10183144
+StartTimeIO: 180952
+StartTimeReads: 179367
+StartTimeWrite: 109563
+StartWTimeIO: 159409
+StartWritesComp: 227987
+Status: PASSED 
+Ended: 1660710939.66 

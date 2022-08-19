@@ -1,0 +1,25 @@
+Event: TaskStarted 
+Started: 1660708306.56 
+texinfo-dummy-native-1.0-r0: do_patch: Elapsed time: 0.02 seconds 
+EndIOinProgress: 0
+EndReadsComp: 14110
+EndReadsMerged: 6114234
+EndSectRead: 41694
+EndSectWrite: 8931896
+EndTimeIO: 152536
+EndTimeReads: 160028
+EndTimeWrite: 90670
+EndWTimeIO: 132364
+EndWritesComp: 182730
+StartIOinProgress: 0
+StartReadsComp: 14110
+StartReadsMerged: 6114234
+StartSectRead: 41694
+StartSectWrite: 8931896
+StartTimeIO: 152536
+StartTimeReads: 160028
+StartTimeWrite: 90670
+StartWTimeIO: 132364
+StartWritesComp: 182730
+Status: PASSED 
+Ended: 1660708306.58 

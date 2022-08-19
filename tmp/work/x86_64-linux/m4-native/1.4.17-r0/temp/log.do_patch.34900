@@ -1,0 +1,32 @@
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for ac_config_links.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4-1.4.17/poky
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4/poky
+    /opt/yocto/poky/meta/recipes-devtools/m4/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4-1.4.17/
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4/
+    /opt/yocto/poky/meta/recipes-devtools/m4/files/
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4-1.4.17/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/m4/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4-1.4.17/
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4/
+    /opt/yocto/poky/meta/recipes-devtools/m4/files/
+DEBUG: Searching for remove-gets.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4-1.4.17/poky
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4/poky
+    /opt/yocto/poky/meta/recipes-devtools/m4/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4-1.4.17/
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4/
+    /opt/yocto/poky/meta/recipes-devtools/m4/files/
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4-1.4.17/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/m4/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4-1.4.17/
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4/
+    /opt/yocto/poky/meta/recipes-devtools/m4/files/
+NOTE: Applying patch 'ac_config_links.patch' (../meta/recipes-devtools/m4/m4/ac_config_links.patch)
+NOTE: Applying patch 'remove-gets.patch' (../meta/recipes-devtools/m4/m4/remove-gets.patch)
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

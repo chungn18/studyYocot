@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660711237.05 
+bison-native-2.7.1-r0: do_fetch: Elapsed time: 53.85 seconds 
+CPU usage: 0.1% 
+EndIOinProgress: 0
+EndReadsComp: 16072
+EndReadsMerged: 7030378
+EndSectRead: 50679
+EndSectWrite: 10292488
+EndTimeIO: 184716
+EndTimeReads: 181803
+EndTimeWrite: 112276
+EndWTimeIO: 162956
+EndWritesComp: 236074
+StartIOinProgress: 0
+StartReadsComp: 16071
+StartReadsMerged: 7029306
+StartSectRead: 50611
+StartSectWrite: 10242792
+StartTimeIO: 184084
+StartTimeReads: 181335
+StartTimeWrite: 111878
+StartWTimeIO: 162490
+StartWritesComp: 231568
+Status: PASSED 
+Ended: 1660711290.90 

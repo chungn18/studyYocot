@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660708299.39 
+gnu-config-native-20120814-r0: do_unpack: Elapsed time: 0.05 seconds 
+CPU usage: 10.5% 
+EndIOinProgress: 0
+EndReadsComp: 14066
+EndReadsMerged: 6111066
+EndSectRead: 41619
+EndSectWrite: 8906936
+EndTimeIO: 152260
+EndTimeReads: 159992
+EndTimeWrite: 90538
+EndWTimeIO: 132158
+EndWritesComp: 182341
+StartIOinProgress: 0
+StartReadsComp: 14066
+StartReadsMerged: 6110986
+StartSectRead: 41611
+StartSectWrite: 8906936
+StartTimeIO: 152244
+StartTimeReads: 159992
+StartTimeWrite: 90538
+StartWTimeIO: 132149
+StartWritesComp: 182341
+Status: PASSED 
+Ended: 1660708299.45 

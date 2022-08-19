@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660711307.18 
+flex-native-2.5.39-r0: do_unpack: Elapsed time: 0.79 seconds 
+CPU usage: 16.0% 
+EndIOinProgress: 0
+EndReadsComp: 16077
+EndReadsMerged: 7031346
+EndSectRead: 50794
+EndSectWrite: 10298984
+EndTimeIO: 184932
+EndTimeReads: 181907
+EndTimeWrite: 112334
+EndWTimeIO: 163129
+EndWritesComp: 236390
+StartIOinProgress: 0
+StartReadsComp: 16073
+StartReadsMerged: 7030898
+StartSectRead: 50784
+StartSectWrite: 10297568
+StartTimeIO: 184880
+StartTimeReads: 181903
+StartTimeWrite: 112331
+StartWTimeIO: 163116
+StartWritesComp: 236218
+Status: PASSED 
+Ended: 1660711307.98 

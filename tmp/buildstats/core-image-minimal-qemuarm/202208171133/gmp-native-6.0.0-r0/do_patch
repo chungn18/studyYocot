@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660710786.11 
+gmp-native-6.0.0-r0: do_patch: Elapsed time: 0.83 seconds 
+CPU usage: 10.5% 
+EndIOinProgress: 0
+EndReadsComp: 15815
+EndReadsMerged: 6958346
+EndSectRead: 49168
+EndSectWrite: 9798376
+EndTimeIO: 178788
+EndTimeReads: 174793
+EndTimeWrite: 106884
+EndWTimeIO: 156052
+EndWritesComp: 216465
+StartIOinProgress: 0
+StartReadsComp: 15815
+StartReadsMerged: 6956530
+StartSectRead: 49129
+StartSectWrite: 9779776
+StartTimeIO: 178668
+StartTimeReads: 174710
+StartTimeWrite: 106812
+StartWTimeIO: 155941
+StartWritesComp: 214223
+Status: PASSED 
+Ended: 1660710786.94 

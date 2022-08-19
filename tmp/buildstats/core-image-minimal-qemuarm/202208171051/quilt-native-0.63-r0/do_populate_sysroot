@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660708305.98 
+quilt-native-0.63-r0: do_populate_sysroot: Elapsed time: 0.51 seconds 
+CPU usage: 12.1% 
+EndIOinProgress: 0
+EndReadsComp: 14110
+EndReadsMerged: 6114234
+EndSectRead: 41694
+EndSectWrite: 8931896
+EndTimeIO: 152536
+EndTimeReads: 160028
+EndTimeWrite: 90670
+EndWTimeIO: 132364
+EndWritesComp: 182730
+StartIOinProgress: 0
+StartReadsComp: 14110
+StartReadsMerged: 6113842
+StartSectRead: 41682
+StartSectWrite: 8931648
+StartTimeIO: 152504
+StartTimeReads: 160019
+StartTimeWrite: 90668
+StartWTimeIO: 132351
+StartWritesComp: 182730
+Status: PASSED 
+Ended: 1660708306.48 

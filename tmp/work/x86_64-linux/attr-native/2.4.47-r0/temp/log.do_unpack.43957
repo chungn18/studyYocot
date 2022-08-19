@@ -1,0 +1,47 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+NOTE: Unpacking /opt/yocto/poky/qemuarm/downloads/attr-2.4.47.src.tar.gz to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/attr-native/2.4.47-r0/
+DEBUG: Searching for run-ptest in paths:
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/poky
+    /opt/yocto/poky/meta/recipes-support/attr/attr/poky
+    /opt/yocto/poky/meta/recipes-support/attr/files/poky
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/
+    /opt/yocto/poky/meta/recipes-support/attr/attr/
+    /opt/yocto/poky/meta/recipes-support/attr/files/
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/x86-64
+    /opt/yocto/poky/meta/recipes-support/attr/attr/x86-64
+    /opt/yocto/poky/meta/recipes-support/attr/files/x86-64
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/
+    /opt/yocto/poky/meta/recipes-support/attr/attr/
+    /opt/yocto/poky/meta/recipes-support/attr/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-support/attr/files/run-ptest to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/attr-native/2.4.47-r0/
+DEBUG: Searching for relative-libdir.patch in paths:
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/poky
+    /opt/yocto/poky/meta/recipes-support/attr/attr/poky
+    /opt/yocto/poky/meta/recipes-support/attr/files/poky
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/
+    /opt/yocto/poky/meta/recipes-support/attr/attr/
+    /opt/yocto/poky/meta/recipes-support/attr/files/
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/x86-64
+    /opt/yocto/poky/meta/recipes-support/attr/attr/x86-64
+    /opt/yocto/poky/meta/recipes-support/attr/files/x86-64
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/
+    /opt/yocto/poky/meta/recipes-support/attr/attr/
+    /opt/yocto/poky/meta/recipes-support/attr/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-support/attr/files/relative-libdir.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/attr-native/2.4.47-r0/
+DEBUG: Searching for attr-Missing-configure.ac.patch in paths:
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/poky
+    /opt/yocto/poky/meta/recipes-support/attr/attr/poky
+    /opt/yocto/poky/meta/recipes-support/attr/files/poky
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/
+    /opt/yocto/poky/meta/recipes-support/attr/attr/
+    /opt/yocto/poky/meta/recipes-support/attr/files/
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/x86-64
+    /opt/yocto/poky/meta/recipes-support/attr/attr/x86-64
+    /opt/yocto/poky/meta/recipes-support/attr/files/x86-64
+    /opt/yocto/poky/meta/recipes-support/attr/attr-2.4.47/
+    /opt/yocto/poky/meta/recipes-support/attr/attr/
+    /opt/yocto/poky/meta/recipes-support/attr/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-support/attr/files/attr-Missing-configure.ac.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/attr-native/2.4.47-r0/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished

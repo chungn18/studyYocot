@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660708350.43 
+gettext-minimal-native-0.18.3.2-r0: do_configure: Elapsed time: 0.17 seconds 
+CPU usage: 11.9% 
+EndIOinProgress: 0
+EndReadsComp: 14110
+EndReadsMerged: 6114354
+EndSectRead: 41738
+EndSectWrite: 8961792
+EndTimeIO: 152820
+EndTimeReads: 160360
+EndTimeWrite: 90950
+EndWTimeIO: 132688
+EndWritesComp: 183904
+StartIOinProgress: 0
+StartReadsComp: 14110
+StartReadsMerged: 6114354
+StartSectRead: 41738
+StartSectWrite: 8961792
+StartTimeIO: 152820
+StartTimeReads: 160360
+StartTimeWrite: 90950
+StartWTimeIO: 132688
+StartWritesComp: 183904
+Status: PASSED 
+Ended: 1660708350.59 

@@ -1,0 +1,2 @@
+config-guess-uclibc.patch
+musl-support.patch

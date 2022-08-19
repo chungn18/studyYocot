@@ -1,0 +1,32 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+DEBUG: Searching for template.py in paths:
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-1.0/poky
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy/poky
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/files/poky
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-1.0/
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy/
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/files/
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-1.0/x86-64
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy/x86-64
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/files/x86-64
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-1.0/
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy/
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy/template.py to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/texinfo-dummy-native/1.0-r0/
+DEBUG: Searching for COPYING in paths:
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-1.0/poky
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy/poky
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/files/poky
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-1.0/
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy/
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/files/
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-1.0/x86-64
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy/x86-64
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/files/x86-64
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-1.0/
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy/
+    /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy/COPYING to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/texinfo-dummy-native/1.0-r0/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished

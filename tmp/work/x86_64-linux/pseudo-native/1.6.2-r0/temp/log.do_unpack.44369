@@ -1,0 +1,75 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+NOTE: Unpacking /opt/yocto/poky/qemuarm/downloads/pseudo-1.6.2.tar.bz2 to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/pseudo-native/1.6.2-r0/
+DEBUG: Searching for 0001-pseudo_client.c-protect-pwd_lck-against-magic.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/0001-pseudo_client.c-protect-pwd_lck-against-magic.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/pseudo-native/1.6.2-r0/
+DEBUG: Searching for 0002-pseudo_util-modify-interface-to-pseudo_etc_file.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/0002-pseudo_util-modify-interface-to-pseudo_etc_file.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/pseudo-native/1.6.2-r0/
+DEBUG: Searching for 0003-pseudo_client.c-support-multiple-directories-in-PSEU.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/0003-pseudo_client.c-support-multiple-directories-in-PSEU.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/pseudo-native/1.6.2-r0/
+DEBUG: Searching for fallback-passwd in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/pseudo/files/fallback-passwd to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/pseudo-native/1.6.2-r0/
+DEBUG: Searching for fallback-group in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/pseudo/files/fallback-group to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/pseudo-native/1.6.2-r0/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished

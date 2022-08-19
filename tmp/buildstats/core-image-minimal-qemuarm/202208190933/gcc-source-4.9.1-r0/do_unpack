@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660876388.24 
+gcc-source-4.9.1-r0: do_unpack: Elapsed time: 29.74 seconds 
+CPU usage: 23.5% 
+EndIOinProgress: 0
+EndReadsComp: 9046
+EndReadsMerged: 2932178
+EndSectRead: 14720
+EndSectWrite: 2707112
+EndTimeIO: 27760
+EndTimeReads: 33350
+EndTimeWrite: 21552
+EndWTimeIO: 36273
+EndWritesComp: 111942
+StartIOinProgress: 0
+StartReadsComp: 8984
+StartReadsMerged: 2674322
+StartSectRead: 13443
+StartSectWrite: 691048
+StartTimeIO: 18608
+StartTimeReads: 3909
+StartTimeWrite: 5501
+StartWTimeIO: 18944
+StartWritesComp: 13474
+Status: PASSED 
+Ended: 1660876417.98 

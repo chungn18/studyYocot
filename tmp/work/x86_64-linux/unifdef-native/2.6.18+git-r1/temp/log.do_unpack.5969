@@ -1,0 +1,18 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+DEBUG: Searching for unifdef.c in paths:
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef-2.6.18+git/poky
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef/poky
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef-2.6.18+git/
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef/
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/files/
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef-2.6.18+git/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef-2.6.18+git/
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef/
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/unifdef/files/unifdef.c to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/unifdef-native/2.6.18+git-r1/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished

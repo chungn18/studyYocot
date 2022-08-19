@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660710939.86 
+attr-native-2.4.47-r0: do_patch: Elapsed time: 0.26 seconds 
+CPU usage: 12.9% 
+EndIOinProgress: 0
+EndReadsComp: 15840
+EndReadsMerged: 6974666
+EndSectRead: 49876
+EndSectWrite: 10183144
+EndTimeIO: 181020
+EndTimeReads: 179367
+EndTimeWrite: 109563
+EndWTimeIO: 159440
+EndWritesComp: 227987
+StartIOinProgress: 0
+StartReadsComp: 15840
+StartReadsMerged: 6973978
+StartSectRead: 49854
+StartSectWrite: 10183144
+StartTimeIO: 180968
+StartTimeReads: 179367
+StartTimeWrite: 109563
+StartWTimeIO: 159417
+StartWritesComp: 227987
+Status: PASSED 
+Ended: 1660710940.11 

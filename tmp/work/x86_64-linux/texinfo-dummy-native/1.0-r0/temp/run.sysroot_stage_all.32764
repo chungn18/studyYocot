@@ -1,0 +1,168 @@
+#!/bin/sh
+
+# Emit a useful diagnostic if something fails:
+bb_exit_handler() {
+    ret=$?
+    case $ret in
+    0)  ;;
+    *)  case $BASH_VERSION in
+        "")   echo "WARNING: exit code $ret from a shell command.";;
+        *)    echo "WARNING: ${BASH_SOURCE[0]}:${BASH_LINENO[0]} exit $ret from
+  "$BASH_COMMAND"";;
+        esac
+        exit $ret
+    esac
+}
+trap 'bb_exit_handler' 0
+set -e
+export prefix="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr"
+export STRIP="strip"
+export localstatedir="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/var"
+export BUILD_CC="gcc "
+export USER="chung2"
+export libexecdir="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/lib/texinfo-dummy-native/texinfo-dummy/texinfo-dummy-native"
+export datadir="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/share"
+export PKG_CONFIG_SYSROOT_DIR=""
+export BUILD_CXX="g++ "
+export LD="ld  "
+export LDFLAGS="-L/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/lib -L/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/lib -Wl,-O1"
+export bindir="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin/texinfo-dummy-native"
+export TARGET_CXXFLAGS="-isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export MAKE="make"
+export includedir="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include"
+export BUILD_LDFLAGS="-L/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/lib -L/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/lib -Wl,-O1"
+unset TARGET_ARCH
+export STRINGS="strings"
+export CCACHE_DIR="/home/chung2"
+export BUILD_LD="ld "
+export oldincludedir="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include"
+export BUILD_CCLD="gcc "
+export BUILD_CFLAGS="-isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export docdir="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/share/doc"
+export infodir="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/share/info"
+export base_prefix="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux"
+export CC="gcc "
+export TERM="xterm-256color"
+export CPPFLAGS="-isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include"
+export BUILD_CPP="cpp "
+export RANLIB="ranlib"
+export base_sbindir="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/sbin"
+export CXX="g++ "
+export HOME="/home/chung2"
+export BUILD_RANLIB="ranlib"
+export BUILD_NM="nm"
+unset lt_cv_sys_lib_dlsearch_path_spec
+export AS="as "
+export AR="ar"
+export BUILD_CPPFLAGS="-isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include"
+export CPP="gcc  -E"
+export mandir="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/share/man"
+export PATCH_GET="0"
+export CONFIG_SITE="/opt/yocto/poky/meta/site/native"
+export BUILD_CXXFLAGS="-isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export OBJCOPY="objcopy"
+export CCACHE_DISABLE="1"
+export servicedir="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/srv"
+export PKG_CONFIG_PATH="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/lib/texinfo-dummy-native/pkgconfig:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/share/pkgconfig"
+export BUILD_FC="gfortran "
+export LC_ALL="C"
+export TARGET_CPPFLAGS="-isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include"
+export exec_prefix="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr"
+export sysconfdir="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/etc"
+export CCLD="gcc "
+export base_libdir="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/lib"
+export LOGNAME="chung2"
+export PATH="/opt/yocto/poky/scripts/native-intercept:/opt/yocto/poky/scripts:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin/x86_64-linux:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/bin:/opt/yocto/poky/scripts:/opt/yocto/poky/bitbake/bin:/opt/yocto/poky/build/python-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin"
+export TARGET_CFLAGS="-isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export base_bindir="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/bin"
+export PKG_CONFIG_LIBDIR="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/lib/texinfo-dummy-native/pkgconfig"
+unset MACHINE
+export sbindir="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/sbin"
+export CFLAGS="-isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export BUILD_AR="ar"
+export BUILD_AS="as "
+export sharedstatedir="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/com"
+export OBJDUMP="objdump"
+unset DISTRO
+export PKG_CONFIG_DIR="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/lib/texinfo-dummy-native/pkgconfig"
+export TARGET_LDFLAGS="-L/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/lib -L/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/lib -Wl,-O1"
+export PKG_CONFIG_DISABLE_UNINSTALLED="yes"
+export libdir="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/lib/texinfo-dummy-native"
+export nonarch_base_libdir="/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/lib"
+export PSEUDO_DISABLED="1"
+export PSEUDO_UNLOAD="1"
+export SHELL="/bin/bash"
+export systemd_unitdir="/lib/systemd"
+export FC="gfortran "
+export CXXFLAGS="-isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export NM="nm"
+export BUILD_STRIP="strip"
+sysroot_stage_all() {
+	sysroot_stage_dirs /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/texinfo-dummy-native/1.0-r0/image /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/texinfo-dummy-native/1.0-r0/sysroot-destdir/
+
+}
+
+sysroot_stage_dirs() {
+	from="$1"
+	to="$2"
+
+	sysroot_stage_dir $from/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include $to/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include
+	if [ "x86_64-linux" = "x86_64-linux" ]; then
+		sysroot_stage_dir $from/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin/texinfo-dummy-native $to/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin/texinfo-dummy-native
+		sysroot_stage_dir $from/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/sbin $to/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/sbin
+		sysroot_stage_dir $from/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/bin $to/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/bin
+		sysroot_stage_dir $from/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/sbin $to/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/sbin
+		sysroot_stage_dir $from/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/lib/texinfo-dummy-native/texinfo-dummy/texinfo-dummy-native $to/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/lib/texinfo-dummy-native/texinfo-dummy/texinfo-dummy-native
+		sysroot_stage_dir $from/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/etc $to/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/etc
+		sysroot_stage_dir $from/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/var $to/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/var
+	fi
+	if [ -d $from/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/lib/texinfo-dummy-native ]
+	then
+		sysroot_stage_libdir $from/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/lib/texinfo-dummy-native $to/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/lib/texinfo-dummy-native
+	fi
+	if [ -d $from/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/lib ]
+	then
+		sysroot_stage_libdir $from/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/lib $to/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/lib
+	fi
+	if [ -d $from/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/lib ]
+	then
+		sysroot_stage_libdir $from/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/lib $to/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/lib
+	fi
+	sysroot_stage_dir $from/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/share $to/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/share
+	# We don't care about docs/info/manpages/locales
+	rm -rf $to/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/share/man/ $to/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/share/doc/ $to/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/share/info/ ${to}/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/share/locale/
+	rm -rf $to/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/share/applications/ $to/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/share/fonts/ $to/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/share/pixmaps/
+
+}
+
+sysroot_stage_dir() {
+	src="$1"
+	dest="$2"
+	# if the src doesn't exist don't do anything
+	if [ ! -d "$src" ]; then
+		 return
+	fi
+
+	mkdir -p "$dest"
+	(
+		cd $src
+		find . -print0 | cpio --null -pdlu $dest
+	)
+
+}
+
+sysroot_stage_libdir() {
+	src="$1"
+	dest="$2"
+
+	sysroot_stage_dir $src $dest
+
+}
+
+cd '/opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/texinfo-dummy-native/1.0-r0'
+sysroot_stage_all
+
+# cleanup
+ret=$?
+trap '' 0
+exit $?

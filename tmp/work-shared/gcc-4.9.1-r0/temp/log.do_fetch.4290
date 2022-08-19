@@ -1,0 +1,1782 @@
+DEBUG: Executing python function do_fetch
+DEBUG: Executing python function base_do_fetch
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Fetching ftp://ftp.gnu.org/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2 using command '/usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -c -P /opt/yocto/poky/qemuarm/downloads 'ftp://ftp.gnu.org/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2''
+DEBUG: Fetcher accessed the network with the command /usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -c -P /opt/yocto/poky/qemuarm/downloads 'ftp://ftp.gnu.org/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2'
+DEBUG: Running export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"; export PATH="/opt/yocto/poky/scripts:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi:/opt/yocto/poky/qemuarm/tmp/sysroots/qemuarm/usr/bin/crossscripts:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/bin:/opt/yocto/poky/scripts:/opt/yocto/poky/bitbake/bin:/opt/yocto/poky/build/python-bin:/opt/yocto/poky/build/python-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin"; export HOME="/home/chung2"; /usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -c -P /opt/yocto/poky/qemuarm/downloads 'ftp://ftp.gnu.org/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2'
+DEBUG: Searching for 0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0002-uclibc-conf.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0002-uclibc-conf.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0002-uclibc-conf.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0002-uclibc-conf.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0002-uclibc-conf.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0002-uclibc-conf.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0002-uclibc-conf.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0002-uclibc-conf.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0002-uclibc-conf.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0002-uclibc-conf.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0003-gcc-uclibc-locale-ctype_touplow_t.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0003-gcc-uclibc-locale-ctype_touplow_t.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0003-gcc-uclibc-locale-ctype_touplow_t.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0003-gcc-uclibc-locale-ctype_touplow_t.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0003-gcc-uclibc-locale-ctype_touplow_t.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0003-gcc-uclibc-locale-ctype_touplow_t.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0003-gcc-uclibc-locale-ctype_touplow_t.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0003-gcc-uclibc-locale-ctype_touplow_t.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0003-gcc-uclibc-locale-ctype_touplow_t.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0003-gcc-uclibc-locale-ctype_touplow_t.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0004-uclibc-locale.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0004-uclibc-locale.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0004-uclibc-locale.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0004-uclibc-locale.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0004-uclibc-locale.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0004-uclibc-locale.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0004-uclibc-locale.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0004-uclibc-locale.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0004-uclibc-locale.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0004-uclibc-locale.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0005-uclibc-locale-no__x.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0005-uclibc-locale-no__x.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0005-uclibc-locale-no__x.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0005-uclibc-locale-no__x.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0005-uclibc-locale-no__x.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0005-uclibc-locale-no__x.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0005-uclibc-locale-no__x.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0005-uclibc-locale-no__x.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0005-uclibc-locale-no__x.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0005-uclibc-locale-no__x.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0006-uclibc-locale-wchar_fix.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0006-uclibc-locale-wchar_fix.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0006-uclibc-locale-wchar_fix.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0006-uclibc-locale-wchar_fix.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0006-uclibc-locale-wchar_fix.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0006-uclibc-locale-wchar_fix.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0006-uclibc-locale-wchar_fix.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0006-uclibc-locale-wchar_fix.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0006-uclibc-locale-wchar_fix.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0006-uclibc-locale-wchar_fix.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0007-uclibc-locale-update.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0007-uclibc-locale-update.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0007-uclibc-locale-update.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0007-uclibc-locale-update.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0007-uclibc-locale-update.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0007-uclibc-locale-update.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0007-uclibc-locale-update.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0007-uclibc-locale-update.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0007-uclibc-locale-update.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0007-uclibc-locale-update.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0008-missing-execinfo_h.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0008-missing-execinfo_h.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0008-missing-execinfo_h.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0008-missing-execinfo_h.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0008-missing-execinfo_h.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0008-missing-execinfo_h.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0008-missing-execinfo_h.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0008-missing-execinfo_h.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0008-missing-execinfo_h.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0008-missing-execinfo_h.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0009-c99-snprintf.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0009-c99-snprintf.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0009-c99-snprintf.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0009-c99-snprintf.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0009-c99-snprintf.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0009-c99-snprintf.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0009-c99-snprintf.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0009-c99-snprintf.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0009-c99-snprintf.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0009-c99-snprintf.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0010-c99-complex-ugly-hack.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0010-c99-complex-ugly-hack.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0010-c99-complex-ugly-hack.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0010-c99-complex-ugly-hack.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0010-c99-complex-ugly-hack.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0010-c99-complex-ugly-hack.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0010-c99-complex-ugly-hack.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0010-c99-complex-ugly-hack.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0010-c99-complex-ugly-hack.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0010-c99-complex-ugly-hack.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0011-index_macro.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0011-index_macro.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0011-index_macro.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0011-index_macro.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0011-index_macro.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0011-index_macro.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0011-index_macro.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0011-index_macro.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0011-index_macro.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0011-index_macro.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0013-libstdc-namespace.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0013-libstdc-namespace.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0013-libstdc-namespace.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0013-libstdc-namespace.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0013-libstdc-namespace.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0013-libstdc-namespace.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0013-libstdc-namespace.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0013-libstdc-namespace.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0013-libstdc-namespace.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0013-libstdc-namespace.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0014-sh-pr24836.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0014-sh-pr24836.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0014-sh-pr24836.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0014-sh-pr24836.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0014-sh-pr24836.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0014-sh-pr24836.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0014-sh-pr24836.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0014-sh-pr24836.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0014-sh-pr24836.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0014-sh-pr24836.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0016-gcc-poison-system-directories.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0016-gcc-poison-system-directories.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0016-gcc-poison-system-directories.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0016-gcc-poison-system-directories.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0016-gcc-poison-system-directories.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0016-gcc-poison-system-directories.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0016-gcc-poison-system-directories.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0016-gcc-poison-system-directories.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0016-gcc-poison-system-directories.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0016-gcc-poison-system-directories.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0017-gcc-poison-dir-extend.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0017-gcc-poison-dir-extend.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0017-gcc-poison-dir-extend.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0017-gcc-poison-dir-extend.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0017-gcc-poison-dir-extend.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0017-gcc-poison-dir-extend.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0017-gcc-poison-dir-extend.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0017-gcc-poison-dir-extend.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0017-gcc-poison-dir-extend.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0017-gcc-poison-dir-extend.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0019-64-bit-multilib-hack.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0019-64-bit-multilib-hack.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0019-64-bit-multilib-hack.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0019-64-bit-multilib-hack.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0019-64-bit-multilib-hack.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0019-64-bit-multilib-hack.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0019-64-bit-multilib-hack.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0019-64-bit-multilib-hack.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0019-64-bit-multilib-hack.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0019-64-bit-multilib-hack.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0020-optional-libstdc.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0020-optional-libstdc.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0020-optional-libstdc.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0020-optional-libstdc.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0020-optional-libstdc.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0020-optional-libstdc.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0020-optional-libstdc.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0020-optional-libstdc.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0020-optional-libstdc.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0020-optional-libstdc.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0022-COLLECT_GCC_OPTIONS.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0022-COLLECT_GCC_OPTIONS.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0022-COLLECT_GCC_OPTIONS.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0022-COLLECT_GCC_OPTIONS.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0022-COLLECT_GCC_OPTIONS.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0022-COLLECT_GCC_OPTIONS.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0022-COLLECT_GCC_OPTIONS.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0022-COLLECT_GCC_OPTIONS.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0022-COLLECT_GCC_OPTIONS.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0022-COLLECT_GCC_OPTIONS.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0024-PR-target-32219.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0024-PR-target-32219.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0024-PR-target-32219.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0024-PR-target-32219.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0024-PR-target-32219.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0024-PR-target-32219.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0024-PR-target-32219.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0024-PR-target-32219.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0024-PR-target-32219.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0024-PR-target-32219.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0025-fortran-cross-compile-hack.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0025-fortran-cross-compile-hack.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0025-fortran-cross-compile-hack.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0025-fortran-cross-compile-hack.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0025-fortran-cross-compile-hack.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0025-fortran-cross-compile-hack.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0025-fortran-cross-compile-hack.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0025-fortran-cross-compile-hack.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0025-fortran-cross-compile-hack.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0025-fortran-cross-compile-hack.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0026-libgcc-sjlj-check.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0026-libgcc-sjlj-check.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0026-libgcc-sjlj-check.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0026-libgcc-sjlj-check.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0026-libgcc-sjlj-check.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0026-libgcc-sjlj-check.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0026-libgcc-sjlj-check.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0026-libgcc-sjlj-check.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0026-libgcc-sjlj-check.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0026-libgcc-sjlj-check.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0027-cpp-honor-sysroot.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0027-cpp-honor-sysroot.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0027-cpp-honor-sysroot.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0027-cpp-honor-sysroot.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0027-cpp-honor-sysroot.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0027-cpp-honor-sysroot.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0027-cpp-honor-sysroot.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0027-cpp-honor-sysroot.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0027-cpp-honor-sysroot.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0027-cpp-honor-sysroot.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0028-MIPS64-Default-to-N64-ABI.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0028-MIPS64-Default-to-N64-ABI.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0028-MIPS64-Default-to-N64-ABI.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0028-MIPS64-Default-to-N64-ABI.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0028-MIPS64-Default-to-N64-ABI.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0028-MIPS64-Default-to-N64-ABI.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0028-MIPS64-Default-to-N64-ABI.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0028-MIPS64-Default-to-N64-ABI.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0028-MIPS64-Default-to-N64-ABI.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0028-MIPS64-Default-to-N64-ABI.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0030-gcc-Fix-argument-list-too-long-error.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0030-gcc-Fix-argument-list-too-long-error.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0030-gcc-Fix-argument-list-too-long-error.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0030-gcc-Fix-argument-list-too-long-error.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0030-gcc-Fix-argument-list-too-long-error.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0030-gcc-Fix-argument-list-too-long-error.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0030-gcc-Fix-argument-list-too-long-error.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0030-gcc-Fix-argument-list-too-long-error.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0030-gcc-Fix-argument-list-too-long-error.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0030-gcc-Fix-argument-list-too-long-error.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0031-Disable-sdt.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0031-Disable-sdt.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0031-Disable-sdt.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0031-Disable-sdt.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0031-Disable-sdt.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0031-Disable-sdt.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0031-Disable-sdt.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0031-Disable-sdt.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0031-Disable-sdt.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0031-Disable-sdt.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0032-libtool.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0032-libtool.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0032-libtool.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0032-libtool.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0032-libtool.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0032-libtool.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0032-libtool.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0032-libtool.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0032-libtool.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0032-libtool.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0040-fix-g++-sysroot.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0040-fix-g++-sysroot.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0040-fix-g++-sysroot.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0040-fix-g++-sysroot.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0040-fix-g++-sysroot.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0040-fix-g++-sysroot.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0040-fix-g++-sysroot.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0040-fix-g++-sysroot.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0040-fix-g++-sysroot.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0040-fix-g++-sysroot.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0041-libtool-avoid-libdir.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0041-libtool-avoid-libdir.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0041-libtool-avoid-libdir.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0041-libtool-avoid-libdir.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0041-libtool-avoid-libdir.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0041-libtool-avoid-libdir.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0041-libtool-avoid-libdir.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0041-libtool-avoid-libdir.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0041-libtool-avoid-libdir.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0041-libtool-avoid-libdir.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0043-cpp.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0043-cpp.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0043-cpp.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0043-cpp.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0043-cpp.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0043-cpp.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0043-cpp.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0043-cpp.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0043-cpp.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0043-cpp.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0044-gengtypes.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0044-gengtypes.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0044-gengtypes.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0044-gengtypes.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0044-gengtypes.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0044-gengtypes.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0044-gengtypes.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0044-gengtypes.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0044-gengtypes.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0044-gengtypes.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0046-libatomic-deptracking.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0046-libatomic-deptracking.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0046-libatomic-deptracking.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0046-libatomic-deptracking.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0046-libatomic-deptracking.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0046-libatomic-deptracking.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0046-libatomic-deptracking.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0046-libatomic-deptracking.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0046-libatomic-deptracking.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0046-libatomic-deptracking.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0047-repomembug.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0047-repomembug.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0047-repomembug.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0047-repomembug.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0047-repomembug.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0047-repomembug.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0047-repomembug.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0047-repomembug.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0047-repomembug.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0047-repomembug.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0050-Revert-Use-dbx_reg_number-for-spanning-registers.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0050-Revert-Use-dbx_reg_number-for-spanning-registers.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0050-Revert-Use-dbx_reg_number-for-spanning-registers.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0050-Revert-Use-dbx_reg_number-for-spanning-registers.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0050-Revert-Use-dbx_reg_number-for-spanning-registers.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0050-Revert-Use-dbx_reg_number-for-spanning-registers.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0050-Revert-Use-dbx_reg_number-for-spanning-registers.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0050-Revert-Use-dbx_reg_number-for-spanning-registers.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0050-Revert-Use-dbx_reg_number-for-spanning-registers.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0050-Revert-Use-dbx_reg_number-for-spanning-registers.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0051-eabispe.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0051-eabispe.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0051-eabispe.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0051-eabispe.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0051-eabispe.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0051-eabispe.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0051-eabispe.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0051-eabispe.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0051-eabispe.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0051-eabispe.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0053-gcc-fix-segfault-from-calling-free-on-non-malloc-d-a.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0053-gcc-fix-segfault-from-calling-free-on-non-malloc-d-a.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0053-gcc-fix-segfault-from-calling-free-on-non-malloc-d-a.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0053-gcc-fix-segfault-from-calling-free-on-non-malloc-d-a.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0053-gcc-fix-segfault-from-calling-free-on-non-malloc-d-a.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0053-gcc-fix-segfault-from-calling-free-on-non-malloc-d-a.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0053-gcc-fix-segfault-from-calling-free-on-non-malloc-d-a.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0053-gcc-fix-segfault-from-calling-free-on-non-malloc-d-a.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0053-gcc-fix-segfault-from-calling-free-on-non-malloc-d-a.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0053-gcc-fix-segfault-from-calling-free-on-non-malloc-d-a.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0054-gcc-Makefile.in-fix-parallel-building-failure.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0054-gcc-Makefile.in-fix-parallel-building-failure.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0054-gcc-Makefile.in-fix-parallel-building-failure.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0054-gcc-Makefile.in-fix-parallel-building-failure.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0054-gcc-Makefile.in-fix-parallel-building-failure.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0054-gcc-Makefile.in-fix-parallel-building-failure.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0054-gcc-Makefile.in-fix-parallel-building-failure.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0054-gcc-Makefile.in-fix-parallel-building-failure.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0054-gcc-Makefile.in-fix-parallel-building-failure.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0054-gcc-Makefile.in-fix-parallel-building-failure.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0055-PR-rtl-optimization-61801.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0055-PR-rtl-optimization-61801.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0055-PR-rtl-optimization-61801.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0055-PR-rtl-optimization-61801.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0055-PR-rtl-optimization-61801.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0055-PR-rtl-optimization-61801.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0055-PR-rtl-optimization-61801.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0055-PR-rtl-optimization-61801.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0055-PR-rtl-optimization-61801.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0055-PR-rtl-optimization-61801.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0056-top-level-reorder_gcc-bug-61144.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0056-top-level-reorder_gcc-bug-61144.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0056-top-level-reorder_gcc-bug-61144.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0056-top-level-reorder_gcc-bug-61144.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0056-top-level-reorder_gcc-bug-61144.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0056-top-level-reorder_gcc-bug-61144.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0056-top-level-reorder_gcc-bug-61144.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0056-top-level-reorder_gcc-bug-61144.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0056-top-level-reorder_gcc-bug-61144.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0056-top-level-reorder_gcc-bug-61144.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0058-gcc-r212171.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0058-gcc-r212171.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0058-gcc-r212171.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0058-gcc-r212171.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0058-gcc-r212171.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0058-gcc-r212171.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0058-gcc-r212171.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0058-gcc-r212171.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0058-gcc-r212171.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0058-gcc-r212171.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0059-gcc-PR-rtl-optimization-63348.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0059-gcc-PR-rtl-optimization-63348.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0059-gcc-PR-rtl-optimization-63348.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0059-gcc-PR-rtl-optimization-63348.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0059-gcc-PR-rtl-optimization-63348.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0059-gcc-PR-rtl-optimization-63348.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0059-gcc-PR-rtl-optimization-63348.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0059-gcc-PR-rtl-optimization-63348.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0059-gcc-PR-rtl-optimization-63348.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0059-gcc-PR-rtl-optimization-63348.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for target-gcc-includedir.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc-4.9.1/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/gcc/
+    /opt/yocto/poky/meta/recipes-devtools/gcc/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'target-gcc-includedir.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'target-gcc-includedir.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'target-gcc-includedir.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'target-gcc-includedir.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'target-gcc-includedir.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'target-gcc-includedir.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'target-gcc-includedir.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'target-gcc-includedir.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'target-gcc-includedir.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Python function base_do_fetch finished
+DEBUG: Python function do_fetch finished

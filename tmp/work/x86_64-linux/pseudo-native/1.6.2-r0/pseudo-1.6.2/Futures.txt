@@ -1,0 +1,54 @@
+Some notes on features under discussion or consideration, and some
+vague implementation thoughts:
+
+* Add some kind of filter for "the directory we care about"
+  - pseudo operations would only go to the server for items
+    in this directory
+  - optionally, logging could be generated for accesses
+    *outside* this directory
+  - intent is to reduce server load dramatically, and improve
+    and/or streamline the logging path when, e.g., doing
+    host contamination checking
+  - probably implies a new message type, MSG_LOG.
+
+* Database recovery/reconstruction
+  - capability for failing harder in the event of apparent
+    corruption
+
+* Log database performance improvements
+  - some way to do "live" queries against the log database
+    while the server is running
+  - some way to flush unwanted data
+  - possibly a way to separate logging into multiple files
+    or otherwise restrict the amount of stuff produced
+  - logging filters of some sort
+
+* Canonicalization speedups
+  - possibly implement some kind of cache of directory names
+    and known canonicalizations
+
+* Possibly limited handling for extended attributes
+  - specifically, the case where they're used to manpulate or
+    query the plain old modes ala chmod/stat.
+
+* Test cases
+  - boy, do we need test cases!
+
+* Clean up *at() functions
+  - The *at() function implementations are gratuitously complicated,
+    I believe because they predate the auto-canonicalization that came
+    with the rewritten pseudo wrappers.
+
+* Memory allocation/deallocation issues.
+  - there's a number of places where results from pseudo_get_value() are
+    strdup'd, then the originals freed, which makes no sense.
+  - there's at least one unchecked realloc() to do with the fd table.
+
+* Benchmarking/performance work.
+  - It'd be nice to get some kind of measurement of how much time is
+    going to which parts of pseudo (database access, filesystem access,
+    IPC overhead, logic, client processing, and so on).
+  - Maybe some work on finding ways to make profiling work, since I was
+    having issues getting good profiling data.
+  - Some moderately-canonical benchmarks would be nice to have for evaluating
+    the costs of various common use cases.

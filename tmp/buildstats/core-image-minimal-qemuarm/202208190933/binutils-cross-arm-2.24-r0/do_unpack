@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660876388.25 
+binutils-cross-arm-2.24-r0: do_unpack: Elapsed time: 10.36 seconds 
+CPU usage: 23.4% 
+EndIOinProgress: 0
+EndReadsComp: 9040
+EndReadsMerged: 2803354
+EndSectRead: 13935
+EndSectWrite: 1249712
+EndTimeIO: 21440
+EndTimeReads: 5382
+EndTimeWrite: 8036
+EndWTimeIO: 21971
+EndWritesComp: 44328
+StartIOinProgress: 0
+StartReadsComp: 8984
+StartReadsMerged: 2674362
+StartSectRead: 13445
+StartSectWrite: 691048
+StartTimeIO: 18612
+StartTimeReads: 3909
+StartTimeWrite: 5501
+StartWTimeIO: 18946
+StartWritesComp: 13474
+Status: PASSED 
+Ended: 1660876398.61 

@@ -1,0 +1,45 @@
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for config-guess-uclibc.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config-20120814/poky
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config/poky
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config-20120814/
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config/
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/files/
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config-20120814/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config-20120814/
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config/
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/files/
+DEBUG: Searching for musl-support.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config-20120814/poky
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config/poky
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config-20120814/
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config/
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/files/
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config-20120814/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config-20120814/
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config/
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/files/
+DEBUG: Searching for gnu-configize.in in paths:
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config-20120814/poky
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config/poky
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config-20120814/
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config/
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/files/
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config-20120814/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config-20120814/
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/gnu-config/
+    /opt/yocto/poky/meta/recipes-devtools/gnu-config/files/
+NOTE: Applying patch 'config-guess-uclibc.patch' (../meta/recipes-devtools/gnu-config/gnu-config/config-guess-uclibc.patch)
+NOTE: Applying patch 'musl-support.patch' (../meta/recipes-devtools/gnu-config/gnu-config/musl-support.patch)
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

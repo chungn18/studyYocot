@@ -1,0 +1,33 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+NOTE: Unpacking /opt/yocto/poky/qemuarm/downloads/m4-1.4.17.tar.gz to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/
+DEBUG: Searching for ac_config_links.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4-1.4.17/poky
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4/poky
+    /opt/yocto/poky/meta/recipes-devtools/m4/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4-1.4.17/
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4/
+    /opt/yocto/poky/meta/recipes-devtools/m4/files/
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4-1.4.17/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/m4/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4-1.4.17/
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4/
+    /opt/yocto/poky/meta/recipes-devtools/m4/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/m4/m4/ac_config_links.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/
+DEBUG: Searching for remove-gets.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4-1.4.17/poky
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4/poky
+    /opt/yocto/poky/meta/recipes-devtools/m4/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4-1.4.17/
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4/
+    /opt/yocto/poky/meta/recipes-devtools/m4/files/
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4-1.4.17/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/m4/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4-1.4.17/
+    /opt/yocto/poky/meta/recipes-devtools/m4/m4/
+    /opt/yocto/poky/meta/recipes-devtools/m4/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/m4/m4/remove-gets.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished

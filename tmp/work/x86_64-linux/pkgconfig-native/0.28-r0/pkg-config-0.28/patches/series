@@ -1,0 +1,2 @@
+fix-glib-configure-libtool-usage.patch -p1
+obsolete_automake_macros.patch -p1

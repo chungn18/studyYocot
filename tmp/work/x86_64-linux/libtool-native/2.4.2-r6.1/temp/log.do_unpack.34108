@@ -1,0 +1,159 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+NOTE: Unpacking /opt/yocto/poky/qemuarm/downloads/libtool-2.4.2.tar.gz to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/libtool-native/2.4.2-r6.1/
+DEBUG: Searching for trailingslash.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/trailingslash.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/libtool-native/2.4.2-r6.1/
+DEBUG: Searching for rename-with-sysroot.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/rename-with-sysroot.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/libtool-native/2.4.2-r6.1/
+DEBUG: Searching for use-sysroot-in-libpath.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/use-sysroot-in-libpath.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/libtool-native/2.4.2-r6.1/
+DEBUG: Searching for fix-final-rpath.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/fix-final-rpath.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/libtool-native/2.4.2-r6.1/
+DEBUG: Searching for avoid_absolute_paths_for_general_utils.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/avoid_absolute_paths_for_general_utils.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/libtool-native/2.4.2-r6.1/
+DEBUG: Searching for fix-rpath.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/fix-rpath.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/libtool-native/2.4.2-r6.1/
+DEBUG: Searching for respect-fstack-protector.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/respect-fstack-protector.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/libtool-native/2.4.2-r6.1/
+DEBUG: Searching for norm-rpath.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/norm-rpath.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/libtool-native/2.4.2-r6.1/
+DEBUG: Searching for dont-depend-on-help2man.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/dont-depend-on-help2man.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/libtool-native/2.4.2-r6.1/
+DEBUG: Searching for fix-resolve-lt-sysroot.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/fix-resolve-lt-sysroot.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/libtool-native/2.4.2-r6.1/
+DEBUG: Searching for prefix.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/prefix.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/libtool-native/2.4.2-r6.1/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished

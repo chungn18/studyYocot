@@ -1,0 +1,39 @@
+DEBUG: Executing shell function do_compile
+NOTE: make -j 4 infodir=/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/share/info
+make  all-recursive
+make[1]: Entering directory '/opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/build'
+Making all in .
+make[2]: Entering directory '/opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/build'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/build'
+Making all in examples
+make[2]: Entering directory '/opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/build/examples'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/build/examples'
+Making all in lib
+make[2]: Entering directory '/opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/build/lib'
+make  all-am
+make[3]: Entering directory '/opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/build/lib'
+gcc   -I. -I/opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/m4-1.4.17/lib   -isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include  -isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -c -o c-stack.o /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/m4-1.4.17/lib/c-stack.c
+gcc   -I. -I/opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/m4-1.4.17/lib   -isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include  -isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -c -o closein.o /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/m4-1.4.17/lib/closein.c
+gcc   -I. -I/opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/m4-1.4.17/lib   -isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include  -isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -c -o closeout.o /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/m4-1.4.17/lib/closeout.c
+gcc   -I. -I/opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/m4-1.4.17/lib   -isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include  -isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -c -o dirname.o /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/m4-1.4.17/lib/dirname.c
+In file included from /usr/include/signal.h:328,
+                 from ./signal.h:52,
+                 from /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/m4-1.4.17/lib/c-stack.c:49:
+/opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/m4-1.4.17/lib/c-stack.c:55:26: error: missing binary operator before token "("
+   55 | #elif HAVE_LIBSIGSEGV && SIGSTKSZ < 16384
+      |                          ^~~~~~~~
+gcc   -I. -I/opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/m4-1.4.17/lib   -isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include  -isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -c -o basename.o /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/m4-1.4.17/lib/basename.c
+gcc   -I. -I/opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/m4-1.4.17/lib   -isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include  -isystem/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -c -o dirname-lgpl.o /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/m4-1.4.17/lib/dirname-lgpl.c
+make[3]: *** [Makefile:1842: c-stack.o] Error 1
+make[3]: *** Waiting for unfinished jobs....
+make[3]: Leaving directory '/opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/build/lib'
+make[2]: *** [Makefile:1602: all] Error 2
+make[2]: Leaving directory '/opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/build/lib'
+make[1]: *** [Makefile:1506: all-recursive] Error 1
+make[1]: Leaving directory '/opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/build'
+make: *** [Makefile:1461: all] Error 2
+ERROR: oe_runmake failed
+WARNING: exit code 1 from a shell command.
+ERROR: Function failed: do_compile (log file is located at /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/m4-native/1.4.17-r0/temp/log.do_compile.43073)

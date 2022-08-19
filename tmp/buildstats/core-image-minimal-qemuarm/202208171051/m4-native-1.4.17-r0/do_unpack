@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660708371.18 
+m4-native-1.4.17-r0: do_unpack: Elapsed time: 0.09 seconds 
+CPU usage: 21.9% 
+EndIOinProgress: 0
+EndReadsComp: 14110
+EndReadsMerged: 6114354
+EndSectRead: 41738
+EndSectWrite: 8974528
+EndTimeIO: 152908
+EndTimeReads: 160473
+EndTimeWrite: 91055
+EndWTimeIO: 132793
+EndWritesComp: 184895
+StartIOinProgress: 0
+StartReadsComp: 14110
+StartReadsMerged: 6114354
+StartSectRead: 41738
+StartSectWrite: 8974528
+StartTimeIO: 152908
+StartTimeReads: 160473
+StartTimeWrite: 91055
+StartWTimeIO: 132793
+StartWritesComp: 184895
+Status: PASSED 
+Ended: 1660708371.27 

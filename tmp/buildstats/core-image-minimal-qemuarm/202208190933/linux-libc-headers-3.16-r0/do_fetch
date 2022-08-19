@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660876388.92 
+linux-libc-headers-3.16-r0: do_fetch: Elapsed time: 355.58 seconds 
+CPU usage: 0.1% 
+EndIOinProgress: 0
+EndReadsComp: 9196
+EndReadsMerged: 2941650
+EndSectRead: 14951
+EndSectWrite: 3056608
+EndTimeIO: 29452
+EndTimeReads: 34137
+EndTimeWrite: 24576
+EndWTimeIO: 39528
+EndWritesComp: 120022
+StartIOinProgress: 0
+StartReadsComp: 9040
+StartReadsMerged: 2713018
+StartSectRead: 13633
+StartSectWrite: 691048
+StartTimeIO: 18988
+StartTimeReads: 3909
+StartTimeWrite: 5501
+StartWTimeIO: 19135
+StartWritesComp: 13474
+Status: PASSED 
+Ended: 1660876744.50 

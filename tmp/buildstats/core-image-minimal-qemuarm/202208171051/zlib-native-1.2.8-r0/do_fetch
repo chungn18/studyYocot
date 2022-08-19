@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660708360.10 
+zlib-native-1.2.8-r0: do_fetch: Elapsed time: 4.25 seconds 
+CPU usage: 0.9% 
+EndIOinProgress: 0
+EndReadsComp: 14110
+EndReadsMerged: 6114354
+EndSectRead: 41738
+EndSectWrite: 8969024
+EndTimeIO: 152860
+EndTimeReads: 160457
+EndTimeWrite: 90995
+EndWTimeIO: 132734
+EndWritesComp: 184700
+StartIOinProgress: 0
+StartReadsComp: 14110
+StartReadsMerged: 6114354
+StartSectRead: 41738
+StartSectWrite: 8968984
+StartTimeIO: 152856
+StartTimeReads: 160452
+StartTimeWrite: 90994
+StartWTimeIO: 132733
+StartWritesComp: 184700
+Status: PASSED 
+Ended: 1660708364.35 

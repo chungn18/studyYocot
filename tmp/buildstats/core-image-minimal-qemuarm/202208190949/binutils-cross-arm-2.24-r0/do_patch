@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660877400.04 
+binutils-cross-arm-2.24-r0: do_patch: Elapsed time: 5.83 seconds 
+CPU usage: 10.9% 
+EndIOinProgress: 0
+EndReadsComp: 10485
+EndReadsMerged: 4617578
+EndSectRead: 35513
+EndSectWrite: 4844808
+EndTimeIO: 124548
+EndTimeReads: 56763
+EndTimeWrite: 35203
+EndWTimeIO: 70717
+EndWritesComp: 155717
+StartIOinProgress: 0
+StartReadsComp: 10389
+StartReadsMerged: 4545482
+StartSectRead: 34510
+StartSectWrite: 4758576
+StartTimeIO: 122128
+StartTimeReads: 55565
+StartTimeWrite: 34219
+StartWTimeIO: 68729
+StartWritesComp: 153120
+Status: PASSED 
+Ended: 1660877405.87 

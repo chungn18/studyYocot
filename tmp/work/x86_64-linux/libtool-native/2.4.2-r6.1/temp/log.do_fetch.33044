@@ -1,0 +1,282 @@
+DEBUG: Executing python function do_fetch
+DEBUG: Executing python function base_do_fetch
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/libtool/libtool-2.4.2.tar.gz', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/libtool/libtool-2.4.2.tar.gz', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/libtool/libtool-2.4.2.tar.gz', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/libtool/libtool-2.4.2.tar.gz', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/libtool/libtool-2.4.2.tar.gz', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/libtool/libtool-2.4.2.tar.gz', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/libtool/libtool-2.4.2.tar.gz', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/libtool/libtool-2.4.2.tar.gz', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['ftp', 'ftp.gnu.org', '/gnu/libtool/libtool-2.4.2.tar.gz', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Fetching ftp://ftp.gnu.org/gnu/libtool/libtool-2.4.2.tar.gz using command '/usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'ftp://ftp.gnu.org/gnu/libtool/libtool-2.4.2.tar.gz''
+DEBUG: Fetcher accessed the network with the command /usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'ftp://ftp.gnu.org/gnu/libtool/libtool-2.4.2.tar.gz'
+DEBUG: Running export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"; export PATH="/opt/yocto/poky/scripts/native-intercept:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin/texinfo-dummy-native:/opt/yocto/poky/scripts:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin/x86_64-linux:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/bin:/opt/yocto/poky/scripts:/opt/yocto/poky/bitbake/bin:/opt/yocto/poky/build/python-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin"; export HOME="/home/chung2"; /usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'ftp://ftp.gnu.org/gnu/libtool/libtool-2.4.2.tar.gz'
+DEBUG: Searching for trailingslash.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'trailingslash.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'trailingslash.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'trailingslash.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'trailingslash.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'trailingslash.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'trailingslash.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'trailingslash.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'trailingslash.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'trailingslash.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for rename-with-sysroot.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'rename-with-sysroot.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'rename-with-sysroot.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'rename-with-sysroot.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'rename-with-sysroot.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'rename-with-sysroot.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'rename-with-sysroot.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'rename-with-sysroot.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'rename-with-sysroot.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'rename-with-sysroot.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for use-sysroot-in-libpath.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'use-sysroot-in-libpath.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'use-sysroot-in-libpath.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'use-sysroot-in-libpath.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'use-sysroot-in-libpath.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'use-sysroot-in-libpath.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'use-sysroot-in-libpath.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'use-sysroot-in-libpath.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'use-sysroot-in-libpath.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'use-sysroot-in-libpath.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for fix-final-rpath.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'fix-final-rpath.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-final-rpath.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-final-rpath.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-final-rpath.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-final-rpath.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-final-rpath.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-final-rpath.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-final-rpath.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-final-rpath.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for avoid_absolute_paths_for_general_utils.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'avoid_absolute_paths_for_general_utils.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'avoid_absolute_paths_for_general_utils.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'avoid_absolute_paths_for_general_utils.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'avoid_absolute_paths_for_general_utils.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'avoid_absolute_paths_for_general_utils.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'avoid_absolute_paths_for_general_utils.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'avoid_absolute_paths_for_general_utils.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'avoid_absolute_paths_for_general_utils.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'avoid_absolute_paths_for_general_utils.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for fix-rpath.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'fix-rpath.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-rpath.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-rpath.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-rpath.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-rpath.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-rpath.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-rpath.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-rpath.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-rpath.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for respect-fstack-protector.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'respect-fstack-protector.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'respect-fstack-protector.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'respect-fstack-protector.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'respect-fstack-protector.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'respect-fstack-protector.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'respect-fstack-protector.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'respect-fstack-protector.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'respect-fstack-protector.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'respect-fstack-protector.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for norm-rpath.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'norm-rpath.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'norm-rpath.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'norm-rpath.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'norm-rpath.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'norm-rpath.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'norm-rpath.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'norm-rpath.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'norm-rpath.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'norm-rpath.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for dont-depend-on-help2man.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'dont-depend-on-help2man.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'dont-depend-on-help2man.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'dont-depend-on-help2man.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'dont-depend-on-help2man.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'dont-depend-on-help2man.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'dont-depend-on-help2man.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'dont-depend-on-help2man.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'dont-depend-on-help2man.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'dont-depend-on-help2man.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for fix-resolve-lt-sysroot.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'fix-resolve-lt-sysroot.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-resolve-lt-sysroot.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-resolve-lt-sysroot.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-resolve-lt-sysroot.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-resolve-lt-sysroot.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-resolve-lt-sysroot.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-resolve-lt-sysroot.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-resolve-lt-sysroot.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fix-resolve-lt-sysroot.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for prefix.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool-2.4.2/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/libtool/
+    /opt/yocto/poky/meta/recipes-devtools/libtool/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'prefix.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'prefix.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'prefix.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'prefix.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'prefix.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'prefix.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'prefix.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'prefix.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'prefix.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Python function base_do_fetch finished
+DEBUG: Python function do_fetch finished

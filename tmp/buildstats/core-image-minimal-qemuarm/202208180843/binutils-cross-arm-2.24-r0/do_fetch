@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660787026.94 
+binutils-cross-arm-2.24-r0: do_fetch: Elapsed time: 118.03 seconds 
+CPU usage: 0.1% 
+EndIOinProgress: 0
+EndReadsComp: 9899
+EndReadsMerged: 4033538
+EndSectRead: 21603
+EndSectWrite: 1312800
+EndTimeIO: 34628
+EndTimeReads: 7617
+EndTimeWrite: 22520
+EndWTimeIO: 44123
+EndWritesComp: 13794
+StartIOinProgress: 0
+StartReadsComp: 9273
+StartReadsMerged: 3275650
+StartSectRead: 19411
+StartSectWrite: 588048
+StartTimeIO: 29220
+StartTimeReads: 5538
+StartTimeWrite: 8732
+StartWTimeIO: 28143
+StartWritesComp: 7997
+Status: PASSED 
+Ended: 1660787144.97 

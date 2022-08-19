@@ -1,0 +1,8 @@
+DEBUG: Executing python function sysroot_cleansstate
+DEBUG: Python function sysroot_cleansstate finished
+DEBUG: Executing shell function do_configure
+DEBUG: Shell function do_configure finished
+DEBUG: Executing python function do_qa_configure
+NOTE: Checking autotools environment for common misconfiguration
+NOTE: texinfo-dummy-native: md5 checksum matched for file://COPYING;md5=d6bb62e73ca8b901d3f2e9d71542f4bb
+DEBUG: Python function do_qa_configure finished

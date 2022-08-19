@@ -1,0 +1,28 @@
+DEBUG: Executing python function do_fetch
+DEBUG: Executing python function base_do_fetch
+DEBUG: Searching for unifdef.c in paths:
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef-2.6.18+git/poky
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef/poky
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef-2.6.18+git/
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef/
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/files/
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef-2.6.18+git/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef-2.6.18+git/
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/unifdef/
+    /opt/yocto/poky/meta/recipes-devtools/unifdef/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'unifdef.c', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'unifdef.c', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'unifdef.c', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'unifdef.c', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'unifdef.c', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'unifdef.c', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'unifdef.c', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'unifdef.c', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'unifdef.c', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Python function base_do_fetch finished
+DEBUG: Python function do_fetch finished

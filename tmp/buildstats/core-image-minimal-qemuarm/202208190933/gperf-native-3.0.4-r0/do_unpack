@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660876388.29 
+gperf-native-3.0.4-r0: do_unpack: Elapsed time: 0.10 seconds 
+CPU usage: 8.1% 
+EndIOinProgress: 0
+EndReadsComp: 8984
+EndReadsMerged: 2679154
+EndSectRead: 13467
+EndSectWrite: 691048
+EndTimeIO: 18696
+EndTimeReads: 3909
+EndTimeWrite: 5501
+EndWTimeIO: 18969
+EndWritesComp: 13474
+StartIOinProgress: 0
+StartReadsComp: 8984
+StartReadsMerged: 2675722
+StartSectRead: 13453
+StartSectWrite: 691048
+StartTimeIO: 18644
+StartTimeReads: 3909
+StartTimeWrite: 5501
+StartWTimeIO: 18955
+StartWritesComp: 13474
+Status: PASSED 
+Ended: 1660876388.39 

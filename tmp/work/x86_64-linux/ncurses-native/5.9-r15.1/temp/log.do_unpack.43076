@@ -1,0 +1,33 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+NOTE: Unpacking /opt/yocto/poky/qemuarm/downloads/ncurses-5.9.tar.gz to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/ncurses-native/5.9-r15.1/
+DEBUG: Searching for tic-hang.patch in paths:
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses-5.9/poky
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses/poky
+    /opt/yocto/poky/meta/recipes-core/ncurses/files/poky
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses-5.9/
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses/
+    /opt/yocto/poky/meta/recipes-core/ncurses/files/
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses-5.9/x86-64
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses/x86-64
+    /opt/yocto/poky/meta/recipes-core/ncurses/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses-5.9/
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses/
+    /opt/yocto/poky/meta/recipes-core/ncurses/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-core/ncurses/ncurses-5.9/tic-hang.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/ncurses-native/5.9-r15.1/
+DEBUG: Searching for config.cache in paths:
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses-5.9/poky
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses/poky
+    /opt/yocto/poky/meta/recipes-core/ncurses/files/poky
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses-5.9/
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses/
+    /opt/yocto/poky/meta/recipes-core/ncurses/files/
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses-5.9/x86-64
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses/x86-64
+    /opt/yocto/poky/meta/recipes-core/ncurses/files/x86-64
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses-5.9/
+    /opt/yocto/poky/meta/recipes-core/ncurses/ncurses/
+    /opt/yocto/poky/meta/recipes-core/ncurses/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-core/ncurses/ncurses-5.9/config.cache to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/ncurses-native/5.9-r15.1/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished

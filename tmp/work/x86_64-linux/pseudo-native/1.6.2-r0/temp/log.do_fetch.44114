@@ -1,0 +1,138 @@
+DEBUG: Executing python function do_fetch
+DEBUG: Executing python function base_do_fetch
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['http', 'www.yoctoproject.org', '/downloads/pseudo/pseudo-1.6.2.tar.bz2', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.yoctoproject.org', '/downloads/pseudo/pseudo-1.6.2.tar.bz2', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.yoctoproject.org', '/downloads/pseudo/pseudo-1.6.2.tar.bz2', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.yoctoproject.org', '/downloads/pseudo/pseudo-1.6.2.tar.bz2', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.yoctoproject.org', '/downloads/pseudo/pseudo-1.6.2.tar.bz2', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.yoctoproject.org', '/downloads/pseudo/pseudo-1.6.2.tar.bz2', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.yoctoproject.org', '/downloads/pseudo/pseudo-1.6.2.tar.bz2', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.yoctoproject.org', '/downloads/pseudo/pseudo-1.6.2.tar.bz2', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['http', 'www.yoctoproject.org', '/downloads/pseudo/pseudo-1.6.2.tar.bz2', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Fetching http://www.yoctoproject.org/downloads/pseudo/pseudo-1.6.2.tar.bz2 using command '/usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'http://www.yoctoproject.org/downloads/pseudo/pseudo-1.6.2.tar.bz2''
+DEBUG: Fetcher accessed the network with the command /usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'http://www.yoctoproject.org/downloads/pseudo/pseudo-1.6.2.tar.bz2'
+DEBUG: Running export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"; export PATH="/opt/yocto/poky/scripts/native-intercept:/opt/yocto/poky/scripts:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin/x86_64-linux:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/usr/bin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/sbin:/opt/yocto/poky/qemuarm/tmp/sysroots/x86_64-linux/bin:/opt/yocto/poky/scripts:/opt/yocto/poky/bitbake/bin:/opt/yocto/poky/build/python-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin"; export HOME="/home/chung2"; /usr/bin/env wget -t 2 -T 30 -nv --passive-ftp --no-check-certificate -P /opt/yocto/poky/qemuarm/downloads 'http://www.yoctoproject.org/downloads/pseudo/pseudo-1.6.2.tar.bz2'
+DEBUG: Searching for 0001-pseudo_client.c-protect-pwd_lck-against-magic.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0001-pseudo_client.c-protect-pwd_lck-against-magic.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-pseudo_client.c-protect-pwd_lck-against-magic.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-pseudo_client.c-protect-pwd_lck-against-magic.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-pseudo_client.c-protect-pwd_lck-against-magic.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-pseudo_client.c-protect-pwd_lck-against-magic.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-pseudo_client.c-protect-pwd_lck-against-magic.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-pseudo_client.c-protect-pwd_lck-against-magic.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-pseudo_client.c-protect-pwd_lck-against-magic.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0001-pseudo_client.c-protect-pwd_lck-against-magic.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0002-pseudo_util-modify-interface-to-pseudo_etc_file.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0002-pseudo_util-modify-interface-to-pseudo_etc_file.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0002-pseudo_util-modify-interface-to-pseudo_etc_file.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0002-pseudo_util-modify-interface-to-pseudo_etc_file.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0002-pseudo_util-modify-interface-to-pseudo_etc_file.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0002-pseudo_util-modify-interface-to-pseudo_etc_file.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0002-pseudo_util-modify-interface-to-pseudo_etc_file.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0002-pseudo_util-modify-interface-to-pseudo_etc_file.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0002-pseudo_util-modify-interface-to-pseudo_etc_file.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0002-pseudo_util-modify-interface-to-pseudo_etc_file.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for 0003-pseudo_client.c-support-multiple-directories-in-PSEU.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0003-pseudo_client.c-support-multiple-directories-in-PSEU.patch', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0003-pseudo_client.c-support-multiple-directories-in-PSEU.patch', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0003-pseudo_client.c-support-multiple-directories-in-PSEU.patch', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0003-pseudo_client.c-support-multiple-directories-in-PSEU.patch', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0003-pseudo_client.c-support-multiple-directories-in-PSEU.patch', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0003-pseudo_client.c-support-multiple-directories-in-PSEU.patch', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0003-pseudo_client.c-support-multiple-directories-in-PSEU.patch', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0003-pseudo_client.c-support-multiple-directories-in-PSEU.patch', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', '0003-pseudo_client.c-support-multiple-directories-in-PSEU.patch', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for fallback-passwd in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'fallback-passwd', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fallback-passwd', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fallback-passwd', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fallback-passwd', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fallback-passwd', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fallback-passwd', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fallback-passwd', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fallback-passwd', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fallback-passwd', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Searching for fallback-group in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo-1.6.2/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/pseudo/
+    /opt/yocto/poky/meta/recipes-devtools/pseudo/files/
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'fallback-group', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fallback-group', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fallback-group', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fallback-group', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fallback-group', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fallback-group', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fallback-group', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fallback-group', '', '', {}] comparing ['svk', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: For url ['file', '', 'fallback-group', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['http', 'downloads.yoctoproject.org', '/mirror/sources/', '', '', {}]
+DEBUG: Trying Upstream
+DEBUG: Python function base_do_fetch finished
+DEBUG: Python function do_fetch finished

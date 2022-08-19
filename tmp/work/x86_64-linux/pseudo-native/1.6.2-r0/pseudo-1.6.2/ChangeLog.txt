@@ -1,0 +1,563 @@
+2014-10-03:
+	* (seebs) in fact, suppress a lot of sanity checks entirely for
+	  did_unlink.
+	* (seebs) merge get_file_path functionality into find_file_dev,
+	  since you never call find_file_dev unless you want to do that.
+	* (seebs) If a file is in the database by inode but not path,
+	  don't try to create a new link for it.
+	* (seebs) when renaming, the link of the "old" file name should be
+	  contingent on whether *it* was in the database, not whether
+	  the *new* name was in the database. Whoops.
+	* (seebs) 1.6.2
+
+2014-10-02:
+	* (seebs) use sqlite3_bind_int64 for inodes.
+	* (seebs) suppress path mismatch warnings for did_unlink.
+
+2014-07-18:
+	* (seebs) Make "server already offline" message into a debugging
+	  message (PDBGF_INVOKE).
+	* (seebs) 1.6.1
+
+2014-07-17:
+	* (seebs) Restrict symbol version restrictions to x86-64 and i386
+	  rather than x86-64 and any old thing. Fixes build problems on ARM.
+
+2014-07-11:
+	* (seebs) merge in symbol version restrictions (slightly tweaked)
+	  for Linux.
+
+2014-07-10:
+	* (seebs) Don't pass -L/usr/lib* for sqlite, because that's probably
+	  the default.
+	* (seebs) include sys/xattr.h explicitly for Darwin, also fix things
+	  up so we aren't relying on seeing a declaration for our dummy
+	  wrapper for fgetgrent_r which doesn't exist here.
+	* (seebs) fix typo in xattr message
+	* (seebs) make xattr work on Darwin, too.
+
+2014-06-13:
+	* (seebs) don't follow symlinks for lutimes.
+	* (seebs) Use sizeof instead of strlen to initialize static value.
+
+2014-05-27:
+	* (seebs) start noticing umask, mask it out from open or mkdir
+	  calls rather than relying on underlying open/mkdir to do it.
+	* (seebs) add a test for umask and filesystem-vs-db modes.
+
+2014-05-16:
+	* (seebs) fchmodat: don't drop flags, report failures, to improve
+	  compatibility/consistency. Cache the knowledge that
+	  AT_SYMLINK_NOFOLLOW gets ENOTSUP.
+	* (seebs) mask out group/other write bits in real filesystem to
+	  reduce risks when assembling a rootfs including world-writeable
+	  directories.
+	* (seebs) send a round-trip message to the server before exiting
+	  if any messages have been sent, so the program won't exit before
+	  the server processed those messages.
+	* (pabigot) Don't memory-leak on checks for PSEUDO_UNLOAD, also
+	  check the correct environment when spawning new things. (Contributed
+	  by Peter A. Bigot).
+	* (seebs) mask 022 back in too, when restoring a database mode.
+
+2014-05-15:
+	* (seebs) drop flags when calling fchmodat() to appease GNU tar.
+
+2014-04-24:
+	* (seebs) extended attribute support
+
+2014-01-23:
+	* (seebs) mknod wasn't calling mknodat.
+	* (seebs) mkdirat wasn't recording the logical DB mode for directories
+
+2014-01-22:
+	* (seebs) notes on some Futures planning.
+	* (seebs) Typo/formatting issue in man page.
+	* (seebs) message formatting/clarity cleanup and typo fixes.
+	* (seebs) First draft of passwd_fallback implementation.
+	* (seebs) bump this all to 1.6.0.
+
+2014-01-15:
+	* (seebs) performance test/test case updates.
+
+2013-06-20:
+	* (seebs) refactor debugging code
+	* (seebs) start using 1.5.2 numbering
+
+2013-06-18:
+	* (seebs) Fix bug in oldclone (reported by rich@noir.com).
+
+2013-02-27:
+	* (seebs) Oh, hey, what if I took out my debug messages?
+	* (seebs) update docs a bit to reduce bitrot
+
+2013-02-26:
+	* (seebs) When built -DNDEBUG, completely drop pseudo_debug calls.
+	* (seebs) Add PSEUDO_ALLOW_FSYNC to allow temporary re-enabling of
+	  fsync to work around filesystem bugs.
+	* (seebs) call that 1.5.1.
+
+2013-02-17:
+	* (seebs) Fix uninitialized variable in unlink, fix force-fsync for
+	  Darwin (off64_t is not a distinct type there).
+
+2013-02-16:
+	* (seebs) Add wrapper setting which automatically returns a fixed
+	  value from some wrappers. Add fixed-value wrappers for all the
+	  *sync() functions. These are all contingent on --enable-force-async.
+
+2013-02-15:
+	* (seebs) Add support for in-memory DB. This, plus upcoming
+	  fsync-related changes, are expected to be big enough to justify
+	  calling this 1.5.
+
+2013-02-13:
+        * (seebs) calling link while chrooted could in some cases result
+          in the root path not being prepended at all. One more try!
+        * (seebs) 1.4.5.
+
+2013-02-12:
+        * (seebs) calling link while chrooted could in some cases result
+          in the root path being double-appended.
+        * (seebs) and tag 1.4.4 so that can get out as a clean update.
+
+2013-01-31:
+        * (seebs) tag 1.4.3 (to avoid any problems with the changes since
+          1.4.2 and old tarballs)
+
+2013-01-30:
+        * (seebs) Subtle tweaks to avoid GLIBC_2.7 dependencies which
+          can cause trouble trying to copy libpseudo.so to older hosts.
+        * (seebs) add "with-sqlite-lib" to simplify cases where sqlite's
+          libdir computation differs from what we otherwise want; for
+          instance, with bitbake, we often end up wanting $lib = lib64,
+          but $sqlite_lib = lib.
+
+2012-12-13:
+        * (seebs) tag 1.4.2.
+
+2012-12-12:
+        * (seebs) Remove extra tab from the path alloc code in
+          makewrappers. (Which has no effect since I changed my mind about
+          the implementation which would have made it show up.)
+        * (seebs) linkat() implementation. as a side effect, clear up
+          the documentation and behavior of link(2) to reflect host
+          OS semantics: Linux will hardlink symlinks, Darwin will only
+          hardlink their targets.
+	* (seebs) make linkat() implementation compile/run on Darwin,
+	  fix header bitrot for Mountain Lion.
+
+2012-08-09:
+	* (seebs) base_stat should be real_stat64, not stat64
+	* (seebs) add stat64/lstat64/fstat64 wrappers to Linux (not
+	  previously needed because the libc versions call stuff we
+	  already wrap).
+
+2012-08-02:
+	* (seebs) fix some Darwin-specific bitrot for clang/llvm.
+        * (seebs) Drop the _plain thing, convert unix/guts/* to use
+          PSEUDO_STATBUF.
+        * (seebs) Tag 1.4.1.
+
+2012-07-27:
+	* (seebs) Convert from .tgz to tar.bz2 since that's handier for
+	  Yocto.
+
+2012-07-24:
+	* (seebs) Fix a couple of bitrots from the update.
+
+2012-07-20:
+	* (seebs) Add --cflags, deprecate --arch.
+	* (seebs) tag 1.4 (since this should now work on arbitrary targets)
+
+2012-06-28:
+        * (seebs) Tag 1.3.1.
+
+2012-06-27:
+        * (seebs) Fix chroot coredump with long root path.
+
+2012-04-30:
+	* (seebs) Update README about new upstream.
+
+2012-04-09:
+	* (seebs) Improvements to rpath logic for sqlite, etc.
+	* (seebs) Improvements to the logic for picking options
+	  like -m32, -m64 (which is to say, on ARM:  Don't.)
+
+2012-03-28:
+	* (seebs) Cleanup unused variables, stray semicolons, add
+	  comments to some unused functions which exist because the
+	  wrapper generator makes them anyway.
+	* (seebs) Make system() drop environment if PSEUDO_UNLOAD is
+	  set.
+
+2012-03-27:
+	* (seebs) Merge in:
+	* (mhatle) Improve configuration compatibility with OE-Core.
+	* (seebs) Provide option to statically link libsqlite.
+	* (seebs) 1.3 branch
+
+2012-03-26:
+	* (seebs) Add popen() call to set up environment.
+
+2012-02-06:
+	* (seebs) Merge O_LARGEFILE into flags, not mode (thanks to Lei
+	  Liu at Wind River for the fix).
+
+2012-02-02:
+	* (seebs) stash dir name for DIR * from opendir using dirfd.
+	* (seebs) add closedir.
+	* (seebs) add initial pass at renameat()
+	* (seebs) update makewrappers with smarter *dirfd handling.
+	* (seebs) in base_path, don't try to strlen the result if
+	  fd_path() returns NULL.
+
+2011-11-02:
+	* (seebs) Call this 1.2 because the UNLOAD change is moderately
+	  significant, and so's the clone change.
+
+2011-11-01:
+	* (mhatle) Stop valgrind from reporting use of uninitialized
+	  memory from pseudo_client:client_ping()
+
+2011-10-26:
+	* (mhatle) update clone wrapper to add an intermediate function
+	  to avoid setting environment variables in the parent.
+
+2011-10-20:
+	* (mhatle) change from internal PSEUDO_RELOADED to external
+	  PSEUDO_UNLOAD environment variable.  Enable external programs
+	  to have a safe and reliable way to unload pseudo on the next
+	  exec*.  PSEUDO_UNLOAD also will disable pseudo if we're in a
+	  fork/clone situation in the same way PSEUDO_DISABLED=1 would.
+
+2011-07-19:
+	* (seebs) initialize a variable in that "realpath" code.
+
+2011-06-08:
+	* (seebs) Get the modern realpath from glibc instead of the old
+	  one inexplicably proferred by RTLD_NEXT.  Fixes realpath(path, NULL)
+	  when PSEUDO_DISABLED=1.
+
+2011-06-06:
+	* (seebs) revise system() handler substantially.  It now
+	  pollutes the environment but works.
+	* (seebs) Call it "1.1.1" so the nice folks doing Yocto
+	  can have an official branch and not need to use git.
+	* (seebs) add "tarball" make target.
+
+2011-06-02:
+	* (seebs) intercept system() so the pseudo environment is
+	  properly set for it.
+	* (seebs) call this "1.1" since the cumulative result of all
+	  of these changes is pretty big.
+
+2011-05-31:
+	* (seebs) Don't mask in 0100 to filesystem modes for things which
+	  are not actually directories, because this breaks the special
+	  logic in euidaccess for X_OK.
+
+2011-05-25:
+	* (seebs) fix for ulckpwdf()
+
+2011-04-21:
+	* (seebs) don't use strerror in wrappers, because it can
+	  lead to malloc deadlocks if part of setting up a malloc
+	  operation falls into strerror which uses locale... Curse
+	  you, Fedora 13.  You and your perfectly reasonable and
+	  standards-conforming behavior which happened to inconvenience
+	  me.
+
+2011-04-16:
+	* (seebs) remove duplicate definition of real_clone() from
+	  the oldclone port.
+
+2011-04-13:
+	* (seebs) base_path of an empty string should be an empty string,
+	  not $pwd.
+
+2011-04-04:
+	* (seebs) whitespace cleanup for Python code
+
+2011-04-01:
+	* (seebs) update README
+
+2011-03-25:
+	* (seebs) don't try to search path when you don't have one
+	* (seebs) merge in ports branch
+	* (seebs) fix permissions on subports/preports
+	* (seebs) try to force debug fd to 2
+
+2011-03-24:
+	* (seebs) more work on OS X port.
+	* (seebs) include errno in the verbose debug output
+	* (seebs) fix darwin fcntl.
+	* (seebs) fix *xattr for darwin (they take more arguments)
+
+2011-02-18:
+	* (seebs) moving things to Unix port, cleanup for Darwin
+
+2011-02-14:
+	* (seebs) first pass on splitting out ports
+	* (seebs) various cleanup
+ 
+2011-02-10:
+	* (seebs) pseudo_client_shutdown(), and the pseudo server, have to
+	  be smart enough to make the local state directory in case the
+	  pseudo binary is invoked directly by a user before being spawned
+	  by the client.
+
+2011-02-09:
+	* (seebs) the long-awaited cleanup of the database initialization
+	  code.  it's not really beautiful but it's quite a bit better.
+
+2011-02-08:
+	* (seebs) Get full paths for exec*()
+
+2011-01-24:
+	* (mhatle) Revert last result cache and related commits.
+	  caching proved to be unreliable.
+
+2011-01-14:
+	* (seebs) Automatically create prefix/state directories.
+	* (mhatle) Avoid caching OP_EXEC calls
+
+2011-01-13:
+	* (seebs) Subtle cache fixup.
+
+2010-12-17:
+	* (mhatle) Disabled additional early setup if pseudo is disabled
+
+2010-12-16:
+	* (mhatle) change the journal from PERSIST to OFF
+	* (seebs) update docs now that fakeroot and password support are in,
+	  this being long overdue
+	* (seebs) fix parallel build issue introduced with maketables
+
+2010-12-15:
+	* (mhatle) add sqlite call profiling, enable with NPROFILE
+	* (mhatle) as a result of profiling, optimize inode search
+	* (mhatle) rearrange the pseudo_op file data operations to reduce
+		   the number of selects.
+	* (mhatle) add the ability to cache the last select result
+	* (mhatle) change the indexing in pseudo_db.c
+
+2010-12-14:
+	* (mhatle) restructure wrapfuncs.c
+
+2010-12-09:
+	* (mhatle) Add doc/program_flow to attempt to explain startup/running
+	* (mhatle) guts/* minor cleanup
+	* (mhatle) Reorganize into a new constructor for libpseudo ONLY
+		   pseudo main() now manually calls the util init
+		   new / revised init for client, wrappers and utils
+	* (mhatle) Add central "reinit" function
+	* (mhatle) Add manul execv* functions
+	* (mhatle) rename pseudo_populate_wrappers to pseudo_check_wrappers
+
+2010-12-08:
+	* (mhatle) Add guts/clone.c to cleanup the clone support
+	* (mhatle) guts/clone.c only run setupenv and reinit when NOT PSEUDO_RELOADED
+	* (mhatle) guts/execve.c whitespace fixe
+	* (mhatle) guts/fork.c similar to guts/clone.c change
+	* (mhatle) pseudo_client.c add reinit function
+	* (mhatle) pseudo_client.c revise client reset, include code from pseudo_wrappers.c
+	* (mhatle) pseudo_server.c move the pid writing to the parent
+	* (mhatle) pseudo_wrappers.c clone cleanup and populate cleanup
+
+2010-12-07:
+	* (seebs) whitespace fixes
+	* (seebs) improve fork and PSEUDO_DISABLED
+	* (seebs) add support for clone(2)
+	* (mhatle) rework/improve clone(2) support
+	* (mhatle) add test code for PSEUDO_DISABLED
+
+2010-12-02:
+	* (seebs) rework of fork/exec, add PSEUDO_DISABLED
+
+2010-11-30:
+	* (seebs) move *_t types to a separate file.
+	* (seebs) remove unused tables from pseudo_db.c
+	* (seebs) cleanup .gitignore
+
+2010-11-17:
+	* (seebs) add "Futures.txt" notes about future development plans
+	* (seebs) split some of the templating code out of makewrappers
+
+2010-11-16:
+	* (seebs) database move functionality (first pass)
+
+2010-10-25:
+	* (seebs) various makewrappers cleanups (pylint, mostly)
+
+2010-10-12:
+	* (seebs) add missing copyright to Python makewrappers.
+	* (seebs) detab makewrappers
+
+2010-10-11:
+	* (seebs) do the other *xattr() wrappers.
+	* (seebs) Replace makewrappers with Python implementation and some
+	  template files.
+
+2010-10-06:
+	* (mhatle) Add the fsetxattr wrapper to return ENOTSUP
+          (note: workaround gnu coreutils 'cp')
+
+2010-09-16:
+	* (seebs) change exec*() to use file, rather than path or filename,
+	  also add OP_EXEC where it was missing.
+
+2010-09-15:
+	* (seebs) allow setting default RPATH entry distinct from sqlite3
+	  directory.
+
+2010-09-08:
+	* (seebs) handle mkfifo without guaranteeing an EINVAL response.
+
+2010-09-02:
+	* (seebs) fix errno for getcwd() with insufficient size
+	* (seebs) Add an RPATH entry to the pseudo binary to find the sqlite3
+	  library.
+
+2010-09-01:
+	* (seebs) add missing casts to even more printf arguments
+
+2010-08-31:
+	* (seebs) add missing casts to printf arguments, after being warned
+	  about them a mere twenty or thirty thousand times.
+
+2010-08-27:
+	* (seebs) fix a bug caused by memcmp with wrong length
+	* (seebs) stop hand-coding lengths of memcmp (torek was right...)
+
+2010-08-26:
+	* (seebs) make offsets.c slightly less useless
+	* (seebs) don't overwrite LD_LIBRARY_PATH values that include us
+
+2010-08-25:
+	* (seebs) fix the signal mask restore
+
+2010-08-24:
+	* (seebs) try to restore signal mask before calling exec()
+	* (seebs) move errno restoration after code which could set errno
+
+2010-08-19:
+	* (seebs) handle insane edge case involving regcomp/regexec
+
+2010-08-17:
+	* (seebs) create speculative-deletion logic
+	* (seebs) remove crackpot theories about cross-device renames
+
+2010-08-16:
+	* (rp) Fix ld_preload/ld_library_path mixup.
+	* (seebs) Handle failed allocations.
+	* (seebs) Fix logic for dropping empty LD_PRELOAD.
+
+2010-08-12:
+	* (seebs) Fix install of libpseudo so the plain library is created
+		when using $(SUFFIX), this is needed so pseudo daemons don't
+		need to know $(SUFFIX) so you can use prebuilts.
+	* (seebs) Remove spurious "const" from modifiable table.
+
+2010-08-11:
+	* (seebs) document the new variables.
+
+2010-08-10:
+	* (mhatle) add execl, execle, execlp, execv, and execvp wrappers
+	* (seebs) handle ... for execl, etc.
+	* (mhatle) add a local cache of variables, instead of using environ
+	* (mhatle) rewrite pseudo_setupenv, pseudo_dropenv routines
+		we now support running "/usr/bin/env -i env" in pseudo!
+
+2010-08-06:
+	* (mhatle) Fix an exec program with an empty environment
+
+2010-08-03:
+	* (mhatle) Fix parallel build problem
+	* (mhatle) allow both environment CFLAGS and internals CFLAGS
+	* (mhatle) add PSEUDO_BINDIR, PSEUDO_LIBDIR, PSEUDO_LOCALSTATEDIR
+	  to allow specific overrides above and beyond PSEUDO_PREFIX
+
+2010-07-30:
+    * (kscherer) added .gitignore file
+    * (kscherer) added sqlite version check to configure script
+    * (kscherer) added basic test harness
+    * (kscherer) fixed bug that when moving a directory the contents
+       of the dir were removed from the db
+
+2010-06-29:
+	* (seebs) handle the other half of the suffix case -- when
+	  libpseudo is in LD_PRELOAD under another name.
+	* (seebs) remove a couple of debugging messages.
+
+2010-06-28: 0.3
+	* (seebs) back out PSEUDO_SUFFIX -- it causes problem when
+	  rebuilding the library but not the server, but this is
+	  a permissible use case.
+
+2010-06-21:
+	* (seebs) add mkstemp64
+
+2010-06-02:
+	* (seebs) add PSEUDO_NOSYMLINKEXP feature and documentation.
+
+2010-04-30:
+	* (seebs) rework pdb_history
+	* (seebs) small cleanups and bulletproofing.
+	* (seebs) fix up PSEUDO_DEBUG_FILE, use it for server as well.
+
+2010-04-27:
+	* (seebs) fix -P in pseudolog
+	* (seebs) document PSEUDO_DEBUG_FILE
+
+2010-04-26:
+	* (seebs) many bug fixes and updates
+	* (seebs) allow deleting entries in pseudolog
+	* (seebs) correct race conditions and related bugs
+
+2010-04-20:
+	* (seebs) add quick sanity-check option for pseudo
+	* (seebs) report on rows deleted
+	* (seebs) unlink after removing db entry to reduce race conditions
+
+2010-04-19:
+	* (seebs) fix crash if xstat() or similar routine called with null path
+	* (seebs) fix list of client processes still running
+	* (seebs) fix pathname mismatches introduced by chroot() support
+
+2010-04-16:
+	* (seebs) add tracking of program names
+	* (seebs) track message types
+	* (seebs) small bug fixes and improvements galore
+
+2010-04-06:
+	* (seebs) implement various passwd-related utilities, various
+	  bugfixes.
+
+2010-03-25:
+	* (seebs) fix return values.
+
+2010-03-24:
+	* (seebs) add chroot syscall
+	* (seebs) add chroot handling to path canonicalization
+	* (seebs) add many calls just to get path fixups
+	* (seebs) handle virtualizing rootness of absolute symlinks
+
+2010-03-24:
+	* (seebs) regenerate wrappers when makewrappers is changed.
+	* (seebs) begin prep for chroot
+	* (seebs) standardize path expansion
+	* (seebs) extend makewrappers to handle function pointer args
+
+2010-03-17:
+	* (seebs) fixup help options
+	* (seebs) use strerror() in a couple more places
+	* (seebs) mention ^ specification in pseudolog -h output.
+
+2010-03-16:
+	* (seebs) Fix missing error checking noted by comp.lang.c reader.
+
+2010-03-16: 0.2
+	* first public release
+
+(There's no changelog before that, sorry.)

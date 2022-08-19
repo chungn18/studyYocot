@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660708373.97 
+pkgconfig-native-0.28-r0: do_fetch: Elapsed time: 24.98 seconds 
+CPU usage: 0.1% 
+EndIOinProgress: 0
+EndReadsComp: 14675
+EndReadsMerged: 6184578
+EndSectRead: 42659
+EndSectWrite: 9068352
+EndTimeIO: 155748
+EndTimeReads: 161251
+EndTimeWrite: 92083
+EndWTimeIO: 134743
+EndWritesComp: 188503
+StartIOinProgress: 0
+StartReadsComp: 14187
+StartReadsMerged: 6124810
+StartSectRead: 41842
+StartSectWrite: 8974904
+StartTimeIO: 153348
+StartTimeReads: 160520
+StartTimeWrite: 91064
+StartWTimeIO: 132906
+StartWritesComp: 184895
+Status: PASSED 
+Ended: 1660708398.95 

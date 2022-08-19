@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660708297.48 
+texinfo-dummy-native-1.0-r0: do_fetch: Elapsed time: 0.03 seconds 
+CPU usage: 11.1% 
+EndIOinProgress: 0
+EndReadsComp: 14066
+EndReadsMerged: 6110642
+EndSectRead: 41599
+EndSectWrite: 8906896
+EndTimeIO: 152220
+EndTimeReads: 159987
+EndTimeWrite: 90537
+EndWTimeIO: 132136
+EndWritesComp: 182341
+StartIOinProgress: 0
+StartReadsComp: 14066
+StartReadsMerged: 6110642
+StartSectRead: 41599
+StartSectWrite: 8906896
+StartTimeIO: 152220
+StartTimeReads: 159987
+StartTimeWrite: 90537
+StartWTimeIO: 132136
+StartWritesComp: 182341
+Status: PASSED 
+Ended: 1660708297.51 

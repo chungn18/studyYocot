@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660710939.39 
+m4-native-1.4.17-r0: do_compile: Elapsed time: 0.67 seconds 
+CPU usage: 17.7% 
+EndIOinProgress: 0
+EndReadsComp: 15840
+EndReadsMerged: 6974666
+EndSectRead: 49876
+EndSectWrite: 10183144
+EndTimeIO: 181020
+EndTimeReads: 179367
+EndTimeWrite: 109563
+EndWTimeIO: 159440
+EndWritesComp: 227987
+StartIOinProgress: 0
+StartReadsComp: 15840
+StartReadsMerged: 6973938
+StartSectRead: 49844
+StartSectWrite: 10183144
+StartTimeIO: 180944
+StartTimeReads: 179367
+StartTimeWrite: 109563
+StartWTimeIO: 159408
+StartWritesComp: 227987
+Status: FAILED 
+Ended: 1660710940.06 

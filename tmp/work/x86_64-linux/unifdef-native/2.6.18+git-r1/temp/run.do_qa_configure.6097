@@ -1,0 +1,175 @@
+def do_qa_configure(d):
+    import subprocess
+
+    ###########################################################################
+    # Check config.log for cross compile issues
+    ###########################################################################
+
+    configs = []
+    workdir = d.getVar('WORKDIR', True)
+    bb.note("Checking autotools environment for common misconfiguration")
+    for root, dirs, files in os.walk(workdir):
+        statement = "grep -e 'CROSS COMPILE Badness:' -e 'is unsafe for cross-compilation' %s > /dev/null" % \
+                    os.path.join(root,"config.log")
+        if "config.log" in files:
+            if subprocess.call(statement, shell=True) == 0:
+                bb.fatal("""This autoconf log indicates errors, it looked at host include and/or library paths while determining system capabilities.
+Rerun configure task after fixing this. The path was '%s'""" % root)
+
+        if "configure.ac" in files:
+            configs.append(os.path.join(root,"configure.ac"))
+        if "configure.in" in files:
+            configs.append(os.path.join(root, "configure.in"))
+
+    ###########################################################################
+    # Check gettext configuration and dependencies are correct
+    ###########################################################################
+
+    cnf = d.getVar('EXTRA_OECONF', True) or ""
+    if "gettext" not in d.getVar('P', True) and "gcc-runtime" not in d.getVar('P', True) and "--disable-nls" not in cnf:
+        ml = d.getVar("MLPREFIX", True) or ""
+        if bb.data.inherits_class('native', d) or bb.data.inherits_class('cross', d) or bb.data.inherits_class('crosssdk', d) or bb.data.inherits_class('nativesdk', d):
+            gt = "gettext-native"
+        elif bb.data.inherits_class('cross-canadian', d):
+            gt = "nativesdk-gettext"
+        else:
+            gt = "virtual/" + ml + "gettext"
+        deps = bb.utils.explode_deps(d.getVar('DEPENDS', True) or "")
+        if gt not in deps:
+            for config in configs:
+                gnu = "grep \"^[[:space:]]*AM_GNU_GETTEXT\" %s >/dev/null" % config
+                if subprocess.call(gnu, shell=True) == 0:
+                    bb.fatal("""%s required but not in DEPENDS for file %s.
+Missing inherit gettext?""" % (gt, config))
+
+    ###########################################################################
+    # Check license variables
+    ###########################################################################
+
+    if not package_qa_check_license(workdir, d):
+        bb.fatal("Licensing Error: LIC_FILES_CHKSUM does not match, please fix")
+
+    ###########################################################################
+    # Check unrecognised configure options (with a white list)
+    ###########################################################################
+    if bb.data.inherits_class("autotools", d):
+        bb.note("Checking configure output for unrecognised options")
+        try:
+            flag = "WARNING: unrecognized options:"
+            log = os.path.join(d.getVar('B', True), 'config.log')
+            output = subprocess.check_output(['grep', '-F', flag, log]).replace(', ', ' ')
+            options = set()
+            for line in output.splitlines():
+                options |= set(line.partition(flag)[2].split())
+            whitelist = set(d.getVar("UNKNOWN_CONFIGURE_WHITELIST", True).split())
+            options -= whitelist
+            if options:
+                pn = d.getVar('PN', True)
+                error_msg = pn + ": configure was passed unrecognised options: " + " ".join(options)
+                package_qa_handle_error("unknown-configure-option", error_msg, d)
+        except subprocess.CalledProcessError:
+            pass
+
+do_qa_configure(d)
+
+def package_qa_handle_error(error_class, error_msg, d):
+    package_qa_write_error(error_class, error_msg, d)
+    if error_class in (d.getVar("ERROR_QA", True) or "").split():
+        bb.error("QA Issue: %s [%s]" % (error_msg, error_class))
+        d.setVar("QA_SANE", False)
+        return False
+    elif error_class in (d.getVar("WARN_QA", True) or "").split():
+        bb.warn("QA Issue: %s [%s]" % (error_msg, error_class))
+    else:
+        bb.note("QA Issue: %s [%s]" % (error_msg, error_class))
+    return True
+
+def package_qa_check_license(workdir, d):
+    """
+    Check for changes in the license files
+    """
+    import tempfile
+    sane = True
+
+    lic_files = d.getVar('LIC_FILES_CHKSUM', True)
+    lic = d.getVar('LICENSE', True)
+    pn = d.getVar('PN', True)
+
+    if lic == "CLOSED":
+        return True
+
+    if not lic_files:
+        bb.error(pn + ": Recipe file does not have license file information (LIC_FILES_CHKSUM)")
+        return False
+
+    srcdir = d.getVar('S', True)
+
+    for url in lic_files.split():
+        try:
+            (type, host, path, user, pswd, parm) = bb.fetch.decodeurl(url)
+        except bb.fetch.MalformedUrl:
+            raise bb.build.FuncFailed( pn + ": LIC_FILES_CHKSUM contains an invalid URL: " + url)
+        srclicfile = os.path.join(srcdir, path)
+        if not os.path.isfile(srclicfile):
+            raise bb.build.FuncFailed( pn + ": LIC_FILES_CHKSUM points to an invalid file: " + srclicfile)
+
+        recipemd5 = parm.get('md5', '')
+        beginline, endline = 0, 0
+        if 'beginline' in parm:
+            beginline = int(parm['beginline'])
+        if 'endline' in parm:
+            endline = int(parm['endline'])
+
+        if (not beginline) and (not endline):
+            md5chksum = bb.utils.md5_file(srclicfile)
+        else:
+            fi = open(srclicfile, 'rb')
+            fo = tempfile.NamedTemporaryFile(mode='wb', prefix='poky.', suffix='.tmp', delete=False)
+            tmplicfile = fo.name;
+            lineno = 0
+            linesout = 0
+            for line in fi:
+                lineno += 1
+                if (lineno >= beginline):
+                    if ((lineno <= endline) or not endline):
+                        fo.write(line)
+                        linesout += 1
+                    else:
+                        break
+            fo.flush()
+            fo.close()
+            fi.close()
+            md5chksum = bb.utils.md5_file(tmplicfile)
+            os.unlink(tmplicfile)
+
+        if recipemd5 == md5chksum:
+            bb.note (pn + ": md5 checksum matched for ", url)
+        else:
+            if recipemd5:
+                bb.error(pn + ": md5 data is not matching for ", url)
+                bb.error(pn + ": The new md5 checksum is ", md5chksum)
+                if beginline:
+                    if endline:
+                        srcfiledesc = "%s (lines %d through to %d)" % (srclicfile, beginline, endline)
+                    else:
+                        srcfiledesc = "%s (beginning on line %d)" % (srclicfile, beginline)
+                elif endline:
+                    srcfiledesc = "%s (ending on line %d)" % (srclicfile, endline)
+                else:
+                    srcfiledesc = srclicfile
+                bb.error(pn + ": Check if the license information has changed in %s to verify that the LICENSE value \"%s\" remains valid" % (srcfiledesc, lic))
+            else:
+                bb.error(pn + ": md5 checksum is not specified for ", url)
+                bb.error(pn + ": The md5 checksum is ", md5chksum)
+            sane = False
+
+    return sane
+
+def package_qa_write_error(type, error, d):
+    logfile = d.getVar('QA_LOGFILE', True)
+    if logfile:
+        p = d.getVar('P', True)
+        f = file( logfile, "a+")
+        print >> f, "%s: %s [%s]" % (p, error, type)
+        f.close()
+

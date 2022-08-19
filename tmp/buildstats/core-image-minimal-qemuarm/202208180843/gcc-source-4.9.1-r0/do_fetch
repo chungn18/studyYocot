@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660787026.89 
+gcc-source-4.9.1-r0: do_fetch: Elapsed time: 16.00 seconds 
+CPU usage: 1.7% 
+EndIOinProgress: 0
+EndReadsComp: 9360
+EndReadsMerged: 3466314
+EndSectRead: 19785
+EndSectWrite: 629400
+EndTimeIO: 30040
+EndTimeReads: 5756
+EndTimeWrite: 8947
+EndWTimeIO: 28733
+EndWritesComp: 8526
+StartIOinProgress: 0
+StartReadsComp: 9273
+StartReadsMerged: 3275618
+StartSectRead: 19410
+StartSectWrite: 588048
+StartTimeIO: 29208
+StartTimeReads: 5538
+StartTimeWrite: 8732
+StartWTimeIO: 28142
+StartWritesComp: 7997
+Status: PASSED 
+Ended: 1660787042.89 

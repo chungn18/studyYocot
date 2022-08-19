@@ -1,0 +1,565 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+NOTE: Unpacking /opt/yocto/poky/qemuarm/downloads/binutils-2.24.tar.bz2 to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for binutils-uclibc-100-uclibc-conf.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/binutils-uclibc-100-uclibc-conf.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for binutils-uclibc-300-001_ld_makefile_patch.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/binutils-uclibc-300-001_ld_makefile_patch.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for binutils-uclibc-300-006_better_file_error.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/binutils-uclibc-300-006_better_file_error.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for binutils-uclibc-300-012_check_ldrunpath_length.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/binutils-uclibc-300-012_check_ldrunpath_length.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for binutils-uclibc-gas-needs-libm.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/binutils-uclibc-gas-needs-libm.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for libtool-2.4-update.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/libtool-2.4-update.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for libiberty_path_fix.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/libiberty_path_fix.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for binutils-poison.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/binutils-poison.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for libtool-rpath-fix.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/libtool-rpath-fix.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for binutils-armv5e.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/binutils-armv5e.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for mips64-default-ld-emulation.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/mips64-default-ld-emulation.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for binutils-xlp-support.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/binutils-xlp-support.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for fix-pr15815.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/fix-pr15815.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for fix-pr2404.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/fix-pr2404.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for fix-pr16476.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/fix-pr16476.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for fix-pr16428.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/fix-pr16428.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for replace_macros_with_static_inline.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/replace_macros_with_static_inline.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for 0001-Fix-MMIX-build-breakage-from-bfd_set_section_vma-cha.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/0001-Fix-MMIX-build-breakage-from-bfd_set_section_vma-cha.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for binutils-uninitialised-warning.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/binutils-uninitialised-warning.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for binutils_CVE-2014-8484.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/binutils_CVE-2014-8484.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for binutils_CVE-2014-8485.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/binutils_CVE-2014-8485.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for binutils_CVE-2014-8501.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/binutils_CVE-2014-8501.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for binutils_CVE-2014-8502_1.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/binutils_CVE-2014-8502_1.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for binutils_CVE-2014-8502.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/binutils_CVE-2014-8502.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for binutils_CVE-2014-8503.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/binutils_CVE-2014-8503.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for binutils_CVE-2014-8504.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/binutils_CVE-2014-8504.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for binutils_CVE-2014-8737.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/binutils_CVE-2014-8737.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Searching for Fix-tc-i386.c-Werror-logical-not-parentheses-error.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuarm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/qemuall
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/armv5
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/arm
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils-2.24/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/
+    /opt/yocto/poky/meta/recipes-devtools/binutils/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/binutils/binutils/Fix-tc-i386.c-Werror-logical-not-parentheses-error.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-poky-linux-gnueabi/binutils-cross-arm/2.24-r0/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished

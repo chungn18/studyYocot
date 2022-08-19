@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660877399.95 
+unifdef-native-2.6.18+git-r1: do_unpack: Elapsed time: 0.05 seconds 
+CPU usage: 6.7% 
+EndIOinProgress: 0
+EndReadsComp: 10389
+EndReadsMerged: 4545418
+EndSectRead: 34507
+EndSectWrite: 4758488
+EndTimeIO: 122104
+EndTimeReads: 55555
+EndTimeWrite: 34216
+EndWTimeIO: 68724
+EndWritesComp: 153119
+StartIOinProgress: 0
+StartReadsComp: 10389
+StartReadsMerged: 4545050
+StartSectRead: 34502
+StartSectWrite: 4758488
+StartTimeIO: 122080
+StartTimeReads: 55555
+StartTimeWrite: 34216
+StartWTimeIO: 68719
+StartWritesComp: 153119
+Status: PASSED 
+Ended: 1660877400.00 

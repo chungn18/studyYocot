@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660711040.03 
+pseudo-native-1.6.2-r0: do_patch: Elapsed time: 0.35 seconds 
+CPU usage: 14.7% 
+EndIOinProgress: 0
+EndReadsComp: 15840
+EndReadsMerged: 6975586
+EndSectRead: 49957
+EndSectWrite: 10205408
+EndTimeIO: 181752
+EndTimeReads: 179962
+EndTimeWrite: 110256
+EndWTimeIO: 160213
+EndWritesComp: 229544
+StartIOinProgress: 0
+StartReadsComp: 15840
+StartReadsMerged: 6975578
+StartSectRead: 49956
+StartSectWrite: 10205408
+StartTimeIO: 181748
+StartTimeReads: 179962
+StartTimeWrite: 110256
+StartWTimeIO: 160213
+StartWritesComp: 229544
+Status: PASSED 
+Ended: 1660711040.38 

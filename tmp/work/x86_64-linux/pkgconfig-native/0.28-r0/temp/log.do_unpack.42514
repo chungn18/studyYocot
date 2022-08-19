@@ -1,0 +1,47 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+NOTE: Unpacking /opt/yocto/poky/qemuarm/downloads/pkg-config-0.28.tar.gz to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/pkgconfig-native/0.28-r0/
+DEBUG: Searching for pkg-config-native.in in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/poky
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/poky
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/pkg-config-native.in to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/pkgconfig-native/0.28-r0/
+DEBUG: Searching for fix-glib-configure-libtool-usage.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/poky
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/poky
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/fix-glib-configure-libtool-usage.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/pkgconfig-native/0.28-r0/
+DEBUG: Searching for obsolete_automake_macros.patch in paths:
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/poky
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/poky
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/poky
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/x86-64
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig/
+    /opt/yocto/poky/meta/recipes-devtools/pkgconfig/files/
+NOTE: Unpacking /opt/yocto/poky/meta/recipes-devtools/pkgconfig/pkgconfig-0.28/obsolete_automake_macros.patch to /opt/yocto/poky/qemuarm/tmp/work/x86_64-linux/pkgconfig-native/0.28-r0/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished

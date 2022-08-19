@@ -1,0 +1,26 @@
+Event: TaskStarted 
+Started: 1660876388.78 
+unifdef-native-2.6.18+git-r1: do_fetch: Elapsed time: 0.04 seconds 
+CPU usage: 18.2% 
+EndIOinProgress: 0
+EndReadsComp: 9040
+EndReadsMerged: 2712506
+EndSectRead: 13632
+EndSectWrite: 691048
+EndTimeIO: 18980
+EndTimeReads: 3909
+EndTimeWrite: 5501
+EndWTimeIO: 19133
+EndWritesComp: 13474
+StartIOinProgress: 0
+StartReadsComp: 9040
+StartReadsMerged: 2712506
+StartSectRead: 13632
+StartSectWrite: 691048
+StartTimeIO: 18980
+StartTimeReads: 3909
+StartTimeWrite: 5501
+StartWTimeIO: 19133
+StartWritesComp: 13474
+Status: PASSED 
+Ended: 1660876388.82 
